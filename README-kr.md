@@ -19,9 +19,10 @@ Translations:
 
 인터뷰에서 나왔던 내용이나 문제를 푸는데 도움이 될 만한 것들을 문서 아래에 추가했다. 많은 내용들이 Steve Yegge's Blog "[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)" 에서 가져왔고, 때로는 Google 의 코칭 노트에서 단어 하나 하나를 반영했다.
 
-나는 Yegge 가 권하는 방법에서 부터 당신이 알아야 할 것을 정리 드립니다. 그리고 새로이 software engineer 가 되고 싶다면(이 문서에는 web development 와 software engineer 에 차이가 있으며, 그 차이는 computer science 관련 지식등의 더 많은 것을 알고 있어야 하는 것으로 보입니다.) 만약, 당신이 computer science(컴퓨터 과학)에 지식과 경력이 있다면 interview 는 더욱더 힘들 것입니다.(더 어려운 문제가 주어진다는 의미로 생각됩니다.) [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+나는 Yegge 가 권하는 방법에서 부터 당신이 알아야 할 것을 정리 드립니다. 그리고 새로이 software engineer 가 되고 싶다면(이 문서에는 web development 와 software engineer 에 차이가 있으며, 그 차이는 computer science 관련 지식등의 더 많은 것을 알고 있어야 하는 것으로 보입니다.) 만약, 당신이 computer science(컴퓨터 과학)에 지식과 경력이 있다면 interview 는 더욱더 힘들 것입니다.(더 어려운 문제가 주어진다는 의미로 생각됩니다.) [Read more here](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/)
 
 만약, system engineer 와 관련된 일을 했다면, networking 이나 security 관련된 지식을 조금 더 알아야 한다.
+
 ---
 
 ## Table of Contents
