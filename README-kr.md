@@ -29,9 +29,8 @@ Translations:
 
 - [문서 소개](#문서-소개)
 - [문서 소개2](#문서-소개2)
-- [문서 사용법](#how-to-use-it)
+- [문서 사용법](#문서-사용법)
 - [Get in a Googley Mood](#get-in-a-googley-mood)
-- [Did I Get the Job?](#did-i-get-the-job)
 - [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [About Google](#about-google)
@@ -148,70 +147,51 @@ Translations:
 
 ---
 
-## Why use it?
+## 문서 소개2
 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
+나는 나의 구글 인터뷰 준비를 위해 이 문서와 같은 계획을 만들고 실행했다. 나는 web 과 관련된 startup 을 1997년 부터 해왔었다. 나는 경제학 학위는 있지만, computer science 는 없었다. 나의 경력은 매우 성공적이었지만, 나는 구글에서 일하기는 원한다. 컴퓨터 시스템, 알고리즘 효율성, 데이터 구조 성능, 저수준 언어등이 어떻게 동작하는지 알고 싶고 만약 당신이 이중 어떤 것도 알기를 원치 않다면 구글은 당신을 고용하지 않을 것이다.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+내가 이 프로젝트를 시작했을 때, 나는 stack, heap, Big-O, tree 와 graph 탐색 같은 것은 알지 못했다. 만약 내가 정렬(sorting) 알고리즘을 구현해야 했다면, 나는 그것을 하기 어렵다고 말했을 것입니다. 데이터 구조체는 사용한 적도, 어떻게 내부적으로 수행되는지도 알지 못했다. 또한 나는 "out of memory" error 를 보아도 메모리 관리를 해야하는 것도 몰라고, 다차원 배열은 몇번 써본 정도이다. 데이터 구조체는 처음부터 생성해본적이 절대 없다.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
+하지만 이 공부를 시작하고 나서는 내가 고용(구글에)될 것이라는 강한 자신감을 갖게 되었고, 이것은 길게 보고 계획을 만들었다. 당연히 이것은 몇개월이라는 시간을 투자해야 한다. 만약 당신이 위에서 언급한 내용에 대해 친숙하다면 시간을 많이 단축할 수 있을 것이다.
 
-## How to use it
+## 문서 사용법
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+아래에 나오는 모든 내용은 개요이고, 당신은 여기서 부터 순차적으로 하나씩 접근해야 합니다.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+나는 Github 의 markdown 을 이용하여 check list 를 만들고 이용합니다.
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
+- [x] 새로운 브랜치를 만들고 이 파일에 있는 선택 항목에 대해, 완료했다면 'x' 를 대괄호 호([]) 사이에 입력합니다.
 
+    브랜치를 "Fork" 하고 아래의 command 를 입력하세요.
+    `git clone https://your.github.com/...`
 
-    Fork a branch and follow the commands below
+    `git checkout -b progress`
 
-`git checkout -b progress`
+    계획된 일들이 완료되면 check box 를 선택(x 입력) 하고 저장한뒤,
 
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
+    `git add . `
 
-`git fetch --all`
+    `git commit -m "Marked x" `
 
-    Mark all boxes with X after you completed your changes
-
-`git add . `
-
-`git commit -m "Marked x" `
-
-`git rebase jwasham/master `
-
-`git push --force `
+    `git push origin progress`
+    이렇게 하면, 새로운 브랜치 생성 및 자신의 계획 관리가 되는 md 파일이 된다.
 
 [More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
+[Github 의 markdown 한글 문서](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+
 ## Get in a Googley Mood
 
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
+"[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" 프린트 해서 잘보이는 곳에 두자.
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## Did I Get the Job?
-
-I'm in the queue right now. Hope to interview soon.
-
-    Thanks for the referral, JP.
 
 ## Follow Along with Me
 
 My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+블로그 / twitter / Google+ / LinkedIn:
 
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -222,7 +202,7 @@ I'm on the journey, too. Follow along:
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
 ## Don't feel you aren't smart enough
-- Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
+- 구글 엔지니어는 스마트 하다. 그러나 충분히 스마트 하지 않는(?) 사람도 있다. 아래의 Youtube 는 꼭 보자.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
