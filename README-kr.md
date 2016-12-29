@@ -151,9 +151,11 @@ Translations:
 
 나는 나의 구글 인터뷰 준비를 위해 이 문서와 같은 계획을 만들고 실행했다. 나는 web 과 관련된 startup 을 1997년 부터 해왔었다. 나는 경제학 학위는 있지만, computer science 는 없었다. 나의 경력은 매우 성공적이었지만, 나는 구글에서 일하기는 원한다. 컴퓨터 시스템, 알고리즘 효율성, 데이터 구조 성능, 저수준 언어등이 어떻게 동작하는지 알고 싶고 만약 당신이 이중 어떤 것도 알기를 원치 않다면 구글은 당신을 고용하지 않을 것이다.
 
-내가 이 프로젝트를 시작했을 때, 나는 stack, heap, Big-O, tree 와 graph 탐색 같은 것은 알지 못했다. 만약 내가 정렬(sorting) 알고리즘을 구현해야 했다면, 나는 그것을 하기 어렵다고 말했을 것입니다. 데이터 구조체는 사용한 적도, 어떻게 내부적으로 수행되는지도 알지 못했다. 또한 나는 "out of memory" error 를 보아도 메모리 관리를 해야하는 것도 몰라고, 다차원 배열은 몇번 써본 정도이다. 데이터 구조체는 처음부터 생성해본적이 절대 없다.
+내가 이 프로젝트를 시작했을 때, 나는 stack, heap, Big-O, tree 와 graph 탐색 같은 것은 알지 못했다. 만약 내가 정렬(sorting) 알고리즘을 구현해야 했다면, 나는 그것을 하기 어렵다고 말했을 것입니다. 데이터 구조(Data Structure)는 사용한 적도, 어떻게 내부적으로 수행되는지도 알지 못했다. 또한 나는 "out of memory" error 를 보아도 메모리 관리를 해야하는 것도 몰라고, 다차원 배열은 몇번 써본 정도이다. 데이터 구조는 처음부터 생성해본적이 절대 없다.
 
 하지만 이 공부를 시작하고 나서는 내가 고용(구글에)될 것이라는 강한 자신감을 갖게 되었고, 이것은 길게 보고 계획을 만들었다. 당연히 이것은 몇개월이라는 시간을 투자해야 한다. 만약 당신이 위에서 언급한 내용에 대해 친숙하다면 시간을 많이 단축할 수 있을 것이다.
+
+**[번역자] 모든 링크된 문서나 영상은 영어로 되어있다. 비슷한 참고할 만한 본인이 찾은 좋은 문서가 있다면 같이 링크하도록 하겠다.**
 
 ## 문서 사용법
 
@@ -209,13 +211,13 @@ My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://
 ## About Google
 
 - [x] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
+- [ ] 구글에서 일거리 찾기:
     - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
     - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
     - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
     - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
     - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
-- [ ] Series:
+- [ ] 시리즈들:
     - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
     - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
@@ -225,16 +227,12 @@ My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://
 
 ## About Video Resources
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
+어떤 영상들은 Coursera, EdX 나 Lynda.com 에서 enroll(등록)을 해야 볼수 있는 것들이 있다.(이를 MOOC 라 한다.) 때로는 몇달을 기다려야 그 강좌를
+들을 수 있는 경우가 있고, Lynda.com의 경우 유료이다. (google 검색으로 coursera / Edx 를 검색하면 이용법등의 블로그들을 찾을 수 있을 것이다.)
 
 ## Interview Process & General Interview Prep
 
-- [ ] Videos:
+- [ ] 영상들:
     - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
     - [ ] [How to Work at Google: Example Coding/Engineering Interview (video)](https://www.youtube.com/watch?v=XKu_SEDAykw)
     - [ ] [How to Work at Google - Candidate Coaching Session (video)](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
@@ -261,39 +259,41 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [ ] Cracking The Coding Interview Set 1:
         - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+    - [ ] Cracking The Coding Interview 한글 번역판:
+        - [ ] [게리 엘 멕도웰 지음, 이병준 옮김 - http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&barcode=9788966260485]
     - [ ] How to Get a Job at the Big 4:
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
 ## Pick One Language for the Interview
 
-I wrote this short article about it: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
+이와 관련된 짧은 글을 소개 한다.: [Important: Pick One Language for the Google Interview](https://googleyasheck.com/important-pick-one-language-for-the-google-interview/)
 
-You can use a language you are comfortable in to do the coding part of the interview, but for Google, these are solid choices:
+당신이 원하는 언어를 선택할 수 있지만, 아래의 언어를 우선 선택하는 것이 좋다.:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+당신은 아래의 언어 또한 선택할 수 있지만, 약간의 손해(?) 사항이 있는 듯:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+당신은 선택한 언어에 매우 익숙하고 관련된 지식을 갖고 있어야 한다.
 
-Read more about choices:
+언어 선택에 있어 도움이 될 만한 글들:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 - https://www.quora.com/What-is-the-best-language-to-program-in-for-an-in-person-Google-interview
 
 [See language resources here](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+C / C++ / Python 을 배울 때, 도움이 될만한 책들이 아래에 리스트되어 있다.
 
 ## Book List
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+아래의 리스트는 내가 이용한 책의 양보다는 작다. 당신의 시간을 절약할 수 있길 기대한다.
 
 ### Interview Prep
 
@@ -338,21 +338,21 @@ If you have more time (I want this book):
 
 ### Language Specific
 
-**You need to choose a language for the interview (see above).** Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+**당신은 꼭 인터뷰를 위한 선호하는(?) 언어를 선택해야 한다** 위에서 언급했던 추천하는 언어를 위해 공부할 수 있는 책을 소개 한다.
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+만약에 당신이 아래의 한가지 정도를 읽었다면, 알고리즘과 데이터 구조에 대한 지식을 얻게 된 것이다. 다음으로 코딩 문제를 풀어보는 것이 좋다.
+또한 새로운 언어를 선택하고 기본적인 부분을 빠르게 확인 하고, 정리하려고 한다면 sololearn[https://www.sololearn.com/]을 확인 해보길 바란다.
 
 [Additional language-specific resources here.](programming-language-resources.md)
 
 ### C++
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+나는 아래의 두 개를 읽지 않았지만, Sedgewick 이 쓴 것은 읽으면 정말 좋다.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+만약, 더 나은 C++ 을 위한 책이 있다면 소개 바란다.
 
 ### Java
 
@@ -379,7 +379,7 @@ OR:
 
 ### Optional Books
 
-**Some people recommend these, but I think it's going overboard, unless you have many years of software engineering experience and expect a much harder interview:**
+**어떤 사람들은 아래의 책을 추천했지만, 내 생각은 다년간 software engineering 경험이 있고 더 어려운 인터뷰가 기대된다면 봐야 할 것이다.**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
     - As a review and problem recognition
@@ -415,6 +415,7 @@ OR:
     - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
     - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
+    - [번역판] http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156641131&orderClick=LEB&Kc=
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
     - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
