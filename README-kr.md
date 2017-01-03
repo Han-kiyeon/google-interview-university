@@ -191,9 +191,9 @@ Translations:
 
 ## Follow Along with Me
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+My story: [구글 인터뷰 준비를 위해 왜 8 달 동안 공부를 했는지에 대한 나의 이야기](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-블로그 / twitter / Google+ / LinkedIn:
+블로그 / 트위터 / Google+ / 링크드인:
 
 - **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
 - Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
@@ -239,11 +239,11 @@ My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://
     - [ ] [Google Recruiters Share Technical Interview Tips (video)](https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be)
     - [ ] [How to Work at Google: Tech Resume Preparation (video)](https://www.youtube.com/watch?v=8npJLXkcmu8)
 
-- [ ] Articles:
+- [ ] 문서들:
     - [ ] [Becoming a Googler in Three Steps](http://www.google.com/about/careers/lifeatgoogle/hiringprocess/)
     - [ ] [Get That Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-        - all the things he mentions that you need to know are listed below
-    - [ ] _(very dated)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
+        - 그(?)가 말한 모든 내용은 아래 리스트에 나와있다.
+    - [ ] _(아주 오래된 문서)_ [How To Get A Job At Google, Interview Questions, Hiring Process](http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html)
     - [ ] [Phone Screen Questions](http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
 
 - [ ] Prep Courses:
@@ -298,24 +298,26 @@ C / C++ / Python 을 배울 때, 도움이 될만한 책들이 아래에 리스�
 ### Interview Prep
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C++ and Java
-    - recommended in Google candidate coaching
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+    - C++ / JAVA 로 답변
+    - Google candidate 에게 코칭할때 사용됨.
+    - 번역판 : [한빛 미디어, 프로그래밍 면접 이렇게 준비한다](http://www.hanbit.co.kr/store/books/look.php?p_code=B9005920688)
+    - 이책은 Cracking Coding Interview 책을 보기전에 보면 좋다.
+    - 너무 어렵지도 않고, 인터뷰에서 당신이 마주할 수 있는 많은 문제들을 쉽게 풀수 있도록 도와 준다.
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
-    - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
-    - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+    - 번역판 :[게리 엘 멕도웰 지음, 이병준 옮김 - http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&barcode=9788966260485]
+    - JAVA 로 답변
+    - [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)에서 추천함
+    - 만약 당신이 "The Google Resume" 에 참조를 했다면, "Cracking the Coding Interview" 책을 소개 했을 것이다.
 
-If you have tons of extra time:
+당신이 정말 정말 시간이 많다면,
 
 - [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-    - all code is in C++, very good if you're looking to use C++ in your interview
-    - a good book on problem solving in general.
+    - C++ 로 인터뷰를 본다면 정말 좋은 책이다.
+    - 일반적인 문제 해결을 위해 좋은 책이다.
 
 ### Computer Architecture
 
-If short on time:
+짧은 시간 안에:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
     - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
