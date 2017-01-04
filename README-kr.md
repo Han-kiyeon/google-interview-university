@@ -320,23 +320,23 @@ C / C++ / Python 을 배울 때, 도움이 될만한 책들이 아래에 리스�
 짧은 시간 안에:
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented HLA, so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
-        - Chapter 2 - Numeric Representation
-        - Chapter 3 - Binary Arithmetic and Bit Operations
-        - Chapter 4 - Floating-Point Representation
-        - Chapter 5 - Character Representation
-        - Chapter 6 - Memory Organization and Access
-        - Chapter 7 - Composite Data Types and Memory Objects
-        - Chapter 9 - CPU Architecture
-        - Chapter 10 - Instruction Set Architecture
-        - Chapter 11 - Memory Architecture and Organization
+    - 이 책은 2004년에 출간되어, 바뀐 부분이 있지만 이 책은 computer 를 이해하는데 훌륭한 리소스다.
+    - 저자는 HLA(80x86 프로세서를 위한 high level assembler 임) 를 개발goTrh, HLA 에 사용한 예제등을 사용했다.
+    - 아래의 챕터를 읽어보면 기본기를 다지는데 좋다:
+        - Chapter 2 - Numeric Representation (숫자 표현)
+        - Chapter 3 - Binary Arithmetic and Bit Operations (이진 산술 및 비트 연산)
+        - Chapter 4 - Floating-Point Representation (소수 표현)
+        - Chapter 5 - Character Representation (문자 표현)
+        - Chapter 6 - Memory Organization and Access (메모리 구성 및 접근)
+        - Chapter 7 - Composite Data Types and Memory Objects (복합 데이터 유형 및 메모리 객체)
+        - Chapter 9 - CPU Architecture (CPU 아키텍쳐)
+        - Chapter 10 - Instruction Set Architecture (명령어 집합 구조)
+        - Chapter 11 - Memory Architecture and Organization (메모리 아키텍쳐와 구성)
 
-If you have more time (I want this book):
+만약 당신이 조금더 시간이 있다면:
 
 - [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
-    - For a richer, more up-to-date (2011), but longer treatment
+    - 더 풍부하고 최신의 내용이 있지만, 시간이 조금 더 많이 필요함.
 
 ### Language Specific
 
@@ -359,24 +359,23 @@ If you have more time (I want this book):
 ### Java
 
 - [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - videos with book content (and Sedgewick!):
-        - [Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
-        - [Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
+    - 책과 연관된 영상이 youtube 에 있음. (and Sedgewick!):
+        - [Algorithms I - 알고리즘 part 1](https://www.youtube.com/user/algorithmscourses/playlists?view=50&sort=dd&shelf_id=2)
+        - [Algorithms II - 알고리즘 part 2](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=3&view=50&sort=dd)
 
 OR:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+    - 공저 Goodrich, Tamassia, Goldwasser
+    - UC Berkeley 에서 CS 기초 코스의 부교제로 사용됨.
+    - 아래 python 버전도 있다. 같은 주제를 다루었다.
 
 ### Python
 
 - [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
+    - 공저 Goodrich, Tamassia, Goldwasser
+    - 좋은 책이고, 거의 모든 것을 알려준다.
+    - 책 리뷰: https://googleyasheck.com/book-report-data-structures-and-algorithms-in-python/
 
 
 ### Optional Books
@@ -384,66 +383,67 @@ OR:
 **어떤 사람들은 아래의 책을 추천했지만, 내 생각은 다년간 software engineering 경험이 있고 더 어려운 인터뷰가 기대된다면 봐야 할 것이다.**
 
 - [ ] [Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) (Skiena)
-    - As a review and problem recognition
-    - The algorithm catalog portion is well beyond the scope of difficulty you'll get in an interview.
-    - This book has 2 parts:
-        - class textbook on data structures and algorithms
-            - pros:
+    - 리뷰 및 문제 인식에 좋음.
+    - 알고리즘 파트는 인터뷰에서 받을 어려움보다 훨씬 더 어렵다.
+    - 이 책은 두 파트로 구성:
+        - 자료 구조와 알고리즘
+            - 장점:
                 - is a good review as any algorithms textbook would be
                 - nice stories from his experiences solving problems in industry and academia
                 - code examples in C
-            - cons:
-                - can be as dense or impenetrable as CLRS, and in some cases, CLRS may be a better alternative for some subjects
-                - chapters 7, 8, 9 can be painful to try to follow, as some items are not explained well or require more brain than I have
-                - don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.
-        - algorithm catalog:
-            - this is the real reason you buy this book.
+                - 알고리즘 교과서로 좋은 리뷰를 받음.
+                - 저자의 문제 풀이 경험으로 부터 나오는 좋은 이야기
+                - C code 로 보여줌.
+            - 단점:
+                - 어떤 부분에서는 CLRS(Introduction to Algorithms) 보다 깊이가 있기도 하지만, 어떤 주제에 대해서는 CLRS 가 나음.
+                - 챕터 7, 8, 9 는 이해하기가 정말로 어렵고, 게다가 어떤 부분은 자세히 설명도 안되있거나 이해하기 위해 노력을 많이 해야 한다.
+                - 내가 틀린말을 하게 하지 마라: 나는 Skiena 의 가르치는 방식과 버릇(?)을 좋아하지만 뉴욕주립대의 교제가 될 수 없을 수도 있다.
+                 (오역일수도 있어서 원문을 남깁니다. don't get me wrong: I like Skiena, his teaching style, and mannerisms, but I may not be Stony Brook material.)
+        - 알고리즘:
+            - 이책을 사야하는 진짜 이유는 이 파트에 있다.
             - about to get to this part. Will update here once I've made my way through it.
-    - To quote Yegge: "More than any other book it helped me understand just how astonishingly commonplace
-        (and important) graph problems are – they should be part of every working programmer's toolkit. The book also
-        covers basic data structures and sorting algorithms, which is a nice bonus. But the gold mine is the second half
-        of the book, which is a sort of encyclopedia of 1-pagers on zillions of useful problems and various ways to solve
-        them, without too much detail. Almost every 1-pager has a simple picture, making it easy to remember. This is a
-        great way to learn how to identify hundreds of problem types."
-    - Can rent it on kindle
-    - Half.com is a great resource for textbooks at good prices.
-    - Answers:
+    - Yegge 말을 인용하면: "다른 어떤 책 보다 더 이 책은 Graph 가 얼마 평범하고 중요한지를 이해하는데 도움을 주었다 - 모든
+         프로그래머의 툴킷에 포함되어야 할 것이다. 이 책은 또한, 자료 구조와 정렬 알고리즘을 다룬다. 그러나 진짜 좋은 부분은 이 책의 후반부에
+         있는데, 그것은 유용한 문제들을 다양한 방법으로 너무 자세하지 않을 정도로 백과사전 처럼 구성을 해놓았다.
+         모든 1-pager(아마 하나의 문제를 다루는 범위?)는 간단한 그림을 사용해 기억하기 쉽게 도운다. 이것은 수백의 문제를 풀고 기억하기 위해 좋은 방법이라 생각한다."
+    - kindle 에서 대여 가능
+    - 좋은 가격으로 Half.com 에서 살수 있다. 국내에 번역본이 없는 것으로 보인다.
+    - 답변들을 정리해 놓은 사이트:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
     - [Errata](http://www3.cs.stonybrook.edu/~skiena/algorist/book/errata)
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-    - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
-    - To quote Yegge: "But if you want to come into your interviews *prepped*, then consider deferring your application until you've made your way through that book."
-    - Half.com is a great resource for textbooks at good prices.
-    - aka CLR, sometimes CLRS, because Stein was late to the game
+    - **중요:** 이 책을 읽는 것은 제한적인 가치를 가질 수 있다. 이 책은 알고리즘과 자료구조에 대한 좋은 리뷰를 갖고 있지만, 좋은 코드를 작성하는 방법을 알려주지는 않는다. 당신은 어지간한 문제는 효율적으로 코드를 구현할 수 있어야 한다.
+    - Yegge 말을 인용: "만약 당신이 인터뷰를 받기를 원한다면, 이 책에 대해 당신의 방법대로 진행이 완료될 때까지 지원서 내는 것을 조금 뒤로 미루는 것도 고민해보라. "
+    - 좋은 가격으로 Half.com 에서 살수 있다.
+    - 저자 이름을 따서 CLR 또는 CLRS 라 불린다.(Stein 이란 사람이 늦게 합류해서 CLR 로도 불린다는..)
     - [번역판] http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156641131&orderClick=LEB&Kc=
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
+    - 첫 몇 챕터는 프로그래밍 문제에 대해 훌륭한 해결책을 보여주지만, 이것은 단지 소개정도일 뿐이다. 이 책은 프로그램의 디자인 및 설계에 대한 것이고 "Code complete" 보다 짧은 버전이다.
 
 - ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
     - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
+    - 다른 책이나 온라인 코딩 문제를 다루어 보는 것이 더 좋을 것 같다.
 
 
-## Before you Get Started
+## 시작하기 전에
 
-This list grew over many months, and yes, it kind of got out of hand.
+이 리스트들은 많은 달들이 지난, out-dated 된 내용 일 수 있다.
 
-Here are some mistakes I made so you'll have a better experience.
+여기에 내가 한 실수들이 있다, 그로인해 당신이 더 나은 경험을 하길 바란다.
+(번역자) 한글로 된 비슷한 자료나 참고가 있으면 링크를 남기도록 하겠다.
 
-### 1. You Won't Remember it All
+### 1. 아마 다 기억할 수 없을 꺼야..
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+나는 많은 시간을 들여 영상을 보면서 노트도 했지만 몇개월 뒤에는 기억이 잘 안났어. 나는 3일을 소비해서 나의 노트와 flash card를 이용해서
+다시 확인 했어.
 
-Read please so you won't make my mistakes:
-
+이걸 꼭 읽어봐야에 나중에 내가 한 실수를 하지 않으려면:
 [Retaining Computer Science Knowledge](https://googleyasheck.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Flashcard 를 이용하자.
 
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
 Each card has different formatting.
