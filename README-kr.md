@@ -499,7 +499,7 @@ OR:
 /**번역하면서 정확하게 "raw constraints" 에 대한 내용을 모르겠다.**/
 - Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
 - 가비지 컬렉션(garbage collection)과 같은 도움없이 메모리 할당/해제와 같은 것을 연습해보자.(파이썬은 제외)
-- 빌트인 type 들을 사용하는 연습을 많이 하자(실제로는 내가 구현한 링크드 리스트를 제품 만드는데는 사용하지 않을꺼니까.)
+- 빌트인 type 들을 사용하는 연습을 많이 하자(실제로는 내가 구현한 연결 리스트를 제품 만드는데는 사용하지 않을꺼니까.)
 
 나는 모든 주제에 대해 연습할 시간이 없었지만, 시도 해볼 것이다.
 
@@ -512,259 +512,261 @@ OR:
 
 코드를 컴퓨터가 아닌 종이나 화이트 보드로 연습해보자. 샘플로 주어진 입력 값으로 테스트 해보자. 그다음에 컴퓨터로 코드를 만들어 테스트 하는 연습을 하는 것이다.
 
-## Prerequisite Knowledge
+## 선행 지식
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+- [ ] **C 언어 배우기**
+    - C 는 모든 곳(아마 배울 수 있는)에 있다. 너는 책, 강의, 영상과 같은 것을 통해 배울 수 있을 것이다.
     - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
             you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+        - 이 책은 분량이 적지만, 만약 당신이 조금만 연습한다면 C 언어를 훌륭히 다룰수 있도록 해줄 것이다.
+        - [문제들에 대한 답변 코드](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **컴퓨터는 프로그램을 어떻게 실행시키는가:**
+    - [ ] [CPU 가 어떻게 프로그램을 수행하는지 (영상)](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [머신 코드 명령어(영상)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
-- nothing to implement
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+## 알고리즘 복잡도 / Big-O / 점근 분석
+- 구현할 내용이 없다.
+- [ ] [하버드 CS50 - 점근 표기 (영상)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O 표기 (빠른 접근 영상) (영상)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O 표기 (and Omega and Theta) - 가장 좋은 수학적 접근 영상 (영상)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] Skiena:
-    - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+    - [영상](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [슬라이드](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [ ] [알고리즘 복잡도 좋은 설명](http://discrete.gr/complexity/)
+- [ ] [논리적 사고 (영상)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [ ] [점근식 (영상)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [UC Berkeley Big O (영상)](https://youtu.be/VIS4YDpuP98)
+- [ ] [UC Berkeley Big Omega (영상)](https://youtu.be/ca3e7UVmeUc)
+- [ ] [Amortized Analysis (영상)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [논리적 사고 "Big O" (영상)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
 - [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+    - [계산 복잡도 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [계산 복잡도 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] [알고리즘 복잡도 치트 시트](http://bigocheatsheet.com/)
 
+    만약, 어떤 강의 들은 너무 수학적(?)이라면, 구체적으로 수학에 대한 배경 지식을 위한 문서의 하단 부에 있는 것으로 확인해보자.
 
-    If some of the lectures are too mathy, you can jump down to the bottom and
-    watch the discrete mathematics videos to get the background knowledge.
+## 자료 구조
 
-## Data Structures
-
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
-        - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
-        - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
+- ### 배열
+    - 자동으로 vector 의 크기조정(resizing)을 해주는 과정을 구현해보자.
+    - [ ] 설명:
+        - [배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - 선형 및 다차원 배열 (영상)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [기초 배열 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [다차원 배열 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [동적 배열 (영상)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays-서로 다른 크기를 가지는 다차원 배열 (영상)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+           /**https://en.wikipedia.org/wiki/Jagged_array**/
+        - [Jagged Arrays (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [크기 재조정 배열 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] vector 구현 (자동 크기 조정을 통한 변하기 쉬운 배열):
+        - [ ] 배열과 포인터를 사용해서 코딩 연습하고 숫자로 인텍싱하지 말고 포인터를 통해 접근 및 계산하도록 하자.
+        - [ ] 할당된 메모리를 갖고 새로운 raw 데이터 배열
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
-            - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
+            - 아마 내부 feature 를 사용하지 않고 int array의 메모리를 할당 받아서 사용 할 수 있도록 하는 것일 텐데, 정확한 해석이 불가하여 원문을 남긴다.
+        - [ ] size() - 배열의 크기를 반환
+        - [ ] capacity() - vector 가 추가 공간 할당 없이 가질 수 있는 공간
+        - [ ] is_empty() - 비어있는지 아닌지
+        - [ ] at(index) - 주어진 index 의 값을 반환, 최대 인텍스를 넘어가면 안됨.
+        - [ ] push(item) - vector 에 하나 추가
+        - [ ] insert(index, item) - vector 에 아이템을 하나 추가하는데, index 로 들어온 곳에 추가 한다. index 이후의 데이터는 하나씩 오른쪽 쉬프트가 되어야 함.
+        - [ ] prepend(item) - 인덱스 0 에 아이템 추가
+        - [ ] pop() - 마지막에 있는 요소 제거함과 값을 반환
+        - [ ] delete(index) - index 에 위치하는 요소 제거 및 모든 요소들은 왼쪽으로 쉬프트 되어야 함.
+        - [ ] remove(item) - 값으로 요소를 찾아서 vector 에서 제거, 또한 같은 값의 여러 요소들이 제거 될 수 있다.
+        - [ ] find(item) - 요소의 값으로 최초 일치하는 요소의 인덱스를 반환, 만약에 같은 요소가 없다면 -1을 반환
+        - [ ] resize(new_capacity) // private 함수
+            - 만약 vector 가 capacity() 를 넘어서면, 크기를 두배로 늘린다.
+            - 요소들을 pop으로 빼내다가, 갖고 있는 요소의 개수가 capacity 의 1/4 이 되면, 크기를 반으로 재조정 한다.
+    - [ ] 시간 복잡도
+        - O(1) to add/remove at end (amortized for allocations for more space), index, or update 인텍스나 맨 마지막에 추가/삭제
+        - O(n) : 어디에 위치하든 추가/삭제
+    - [ ] 공간 복잡도
         - contiguous in memory, so proximity helps performance
+        - 연속적인 메모리 공간은 성능에 좋게 작용?
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
-- ### Linked Lists
-    - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+- ### 연결 리스트
+    - [ ] 설명:
+        - [ ] [단순 연결 리스트 (영상)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - 연결 리스트 (영상)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [ ] [C 코드 (영상)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - 전체 영상은 아니고, 노드 구조체와 메모리 할당 관련해서만 알려줌
+    - [ ] 연결 리스트 vs 배열:
+        - [Core 연결 리스트 Vs 배열 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [연결 리스트를 피해야 하는 이유 (영상)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: pointer to pointer 지식이 있어야 한다:
+        (포인터를 함수에 인자로 넘길때 포인터의 포인팅을 변경할 수 있어야 한다. 즉, 포인터가 가리키는 값 뿐만 아니라 포이터 자체의 address 변경이 가능해야 할 것이다.) 아래의 링크는 단순이 pointer to pointer 에 대한 파악을 위한 것이다. 포인터에 대한 간략한 내용이니 확인 해보도록 하자.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+    - [ ] 구현 (나는 tail pointer 를 사용/사용하지 않음 둘다 구현함):
+        - [ ] size() - 리스트에 있는 요소의 개수를 반환
+        - [ ] empty() - 리스트가 비어 있으면 true 반환 아니면 false
+        - [ ] value_at(index) - n번째 아이템의 값을 반환 (리스트의 인텍스는 0 부터 시작함.)
+        - [ ] push_front(value) - 리스트의 맨 앞에 아이템 하나 추가
+        - [ ] pop_front() - 맨 앞의 아이템 제거 및 그 아이템의 값을 반환
+        - [ ] push_back(value) - 리스트의 맨 앞에 아이템 추가
+        - [ ] pop_back() - 리스트의 맨 뒤의 아이템 제거 및 값 반환
+        - [ ] front() - 리스트 맨 앞 아이템의 값 반환
+        - [ ] back() - 리스트의 맨 뒤 아이템의 값 반환get value of end item
+        - [ ] insert(index, value) - 주어진 index 의 위치에 값을 추가하기, 그래서 현재 그 인텍스의 아이템은 새로 추가된 아이템의 포인터에 의해 접근 된다.
+        - [ ] erase(index) - 주어진 인덱스에 있는 노드 삭제
+        - [ ] value_n_from_end(n) - 맨 뒤에서 n 번째에 있는 노드의 값을 반환 한다.
+        - [ ] reverse() - 리스트의 순서 뒤집기
+        - [ ] remove_value(value) - 주어진 value 를 처음 찾은 인텍스의 아이템 삭제
+    - [ ] 이중 연결 리스트
+        - [설명 (영상)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - 구현 할 사항은 없음.
 
-- ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
-    - [ ] Will not implement. Implementing with array is trivial.
+- ### 스택
+    - [ ] [스택 (영상)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [스택 / Last-In First-Out (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] 구현은 안할 것이다. 간단히 배열로 구현 해보면 좋을 듯.
 
-- ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
+- ### 큐
+    - [ ] [큐 / First-In First-Out(영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [큐 (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [원형 큐/First-In First-Out](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [우선순위 큐 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] 연결 리스트를 이용하여 구현하자(tail 포인터 사용):
+        - enqueue(value) - tail 포인터가 가리키고 있는 위치에 값 넣기
+        - dequeue() - 값을 반환하고 맨 앞의 추가된지 가장 오래된 아이템 삭제 (front)
+        - empty() - 비어있는지 확인, 비어있으면 true 반환
+    - [ ] 고정 크기 배열로 구현:
+        - enqueue(value) - 가용한 공간의 맨 마지막에 값을 추가
+        - dequeue() - 가장 추가된지 오래된 요소의 값을 반환 하고 삭제
+        - empty() - 비어 있는지 확인
+        - full() - 가용한 공간에 요소들이 가득차 있는지 확인.
+    - [ ] 복잡도:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue 를 head 포인터가 있는 곳에 하고, dequeue를 tail 이 가르키는 곳으로 하는 나쁜(?) 구현으로 하면 O(n) 임
+            because you'd need the next to last element, causing a full traversal each dequeue. (번역이 애매함)
         - enqueue: O(1) (amortized, linked list and array [probing])
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
 
-- ### Hash table
-    - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+- ### 해쉬 테이블
+    - [ ] 영상:
+        - [ ] [Chaining(체이닝)의 해슁 (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [오픈 어드레싱, 암호법의 해슁 (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: 강력한 Dictionary (영상)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
-        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [(Advanced) 완벽한 해슁 (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
-        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
-        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
-        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
-            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+    - [ ] 온라인 강좌:
+        - [ ] [해쉬 함수의 이해 (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [해쉬 테이블의 이용 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [해슁 지원 함수 (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+        - [ ] [Language Support Hash Tables (영상)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Core Hash Tables (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [자료구조 (영상)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [전화번호부 문제 (영상)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] 분산 처리된(Distributed) 해쉬 테이블:
+            - [Dropbox 에서 저장공간 최적화 및 즉각적인 업로드) (영상)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [분산 처리된 해쉬테이블 (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+    - [ ] 선형 탐색을 통한 배열로 구현
+        - hash(k, m) - m 은 해쉬 테이블의 크기
+        - add(key, value) - 만약 key 가 있다면, 값을 업데이트
+        - exists(key) - key 가 있는지 확인
+        - get(key) - key 에 대응된 값을 반환
+        - remove(key) - key / value 값 제거
 
-## More Knowledge
+## 추가 자료 구조
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-    - [ ] [detail](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+- ### 이전 트리(Binary Tree)
+    - [ ] [Binary Search (영상)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Binary Search (영상)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+    - [ ] [조금 더 자세히](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+    - [ ] 구현:
+        - binary search (정렬된 정수형 배열로)
+        - binary search using recursion(재귀로 구현)
 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+- ### 비트 연산
+    - [ ] [비트 연산 치트 시트](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - 너는 2의 승수에 관련된 값을 알고 있어야 한다. (2^1 부터 2^16 까지 그리고 2^32 값)
+    - [ ] &(AND), | (OR), ^(XOR), ~(NOT), >> (Right shift), << (Left shift) 와 같은 비트 조작 연산을 이해하는 것은 중요하다.
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
-            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [ ] 소개 영상:
+            [비트 조작 (영상)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [ ] [C 프로그래밍 연습 2-10: 비트 연산 (영상)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [ ] [비트 조작](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [ ] [비트 연산](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
+        - [ ] [The Bit Twiddler - 컴퓨터 광](http://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] 2s and 1s complement
-        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
-        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
-        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] count set bits
-        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
-        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
-        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [ ] 1과 2의 보수
+        - [이진: 더하기 & 빼기 (왜 2의 보수를 써야 하는가?) (영상)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [1의 보수](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [2의 보수](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [ ] bit 세기
+        - [바이트 내에 bit 를 세는 4가지 방법(영상)](https://youtu.be/Hzuzo9NJrlc)
+        - [비트 세기](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [32비트 정수에서 1로 설정된 비트의 개수 세기](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] round to next power of 2:
         - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+    - [ ] 값 교환:
+        - [교환-Swap](http://bits.stephan-brumme.com/swap.html)
+    - [ ] 절대값:
+        - [절대값](http://bits.stephan-brumme.com/absInteger.html)
 
-## Trees
+## 트리 - Tree
 
-- ### Trees - Notes & Background
-    - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+- ### 트리 - 노트 & 배경 지식
+    - [ ] [트리 종류별 설명 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
-    - BFS (breadth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+    - 기본 트리 생성
+    - traversal(순방)
+    - 조작 알고리즘(manipulation algorithms)
+    - BFS (breadth-first search) 너비 우선 탐색
+        - [MIT (영상)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
         - level order (BFS, using queue)
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-    - DFS (depth-first search)
-        - [MIT (video)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
+            시간 복잡도: O(n)
+            공간 복잡도: 최선: O(1), 최악: O(n/2)=O(n)
+    - DFS (depth-first search) - 깊이 우선 탐색
+        - [MIT (영상)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
         - notes:
-            time complexity: O(n)
-            space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
+            시간 복잡도: O(n)
+            공간 복잡도:
+                최선: O(log n) - 평균적으로 트리의 높이
+                최악: O(n)
+        - inorder (DFS: left, self, right) - 왼쪽 -> 자신 -> 오른쪽 노드 순으로 탐방
+        - postorder (DFS: left, right, self) -> 왼쪽 -> 오른쪽 -> 자신 순으로
+        - preorder (DFS: self, left, right) -> 자신 -> 왼쪽 -> 오른쪽
 
-- ### Binary search trees: BSTs
-    - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-    - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
+- ### 이진 탐색 트리: BSTs
+    - [ ] [이진 탐색 트리 리뷰 (영상)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+    - [ ] [Series (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - starts with symbol table and goes through BST applications
-    - [ ] [Introduction (video)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
-    - [ ] [MIT (video)](https://www.youtube.com/watch?v=9Jry5-82I68)
+    - [ ] [소개 (영상)](https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction)
+    - [ ] [MIT (영상)](https://www.youtube.com/watch?v=9Jry5-82I68)
     - C/C++:
-        - [ ] [Binary search tree - Implementation in C/C++ (video)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
-        - [ ] [BST implementation - memory allocation in stack and heap (video)](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
-        - [ ] [Find min and max element in a binary search tree (video)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Find height of a binary tree (video)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
-        - [ ] [Binary tree traversal - breadth-first and depth-first strategies (video)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
-        - [ ] [Binary tree: Level Order Traversal (video)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Binary tree traversal: Preorder, Inorder, Postorder (video)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Check if a binary tree is binary search tree or not (video)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-        - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
-        - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
-        - [ ] delete_tree
-        - [ ] is_in_tree // returns true if given value exists in the tree
-        - [ ] get_height // returns the height in nodes (single node's height is 1)
-        - [ ] get_min   // returns the minimum value stored in the tree
-        - [ ] get_max   // returns the maximum value stored in the tree
-        - [ ] is_binary_search_tree
-        - [ ] delete_value
-        - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
+        - [ ] [이진 탐색 트리 - C/C++ 로 구현 (영상)](https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28)
+        - [ ] [BST 구현 - 스택과 힙에서 메모리 할당 ()](https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29)
+        - [ ] [이진 트리에서 min/max 요소 찾기 (영상)](https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리의 높이 찾기 (영상)](https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31)
+        - [ ] [이진 트리 탐방 - breadth-first(너비 우선) and depth-first(깊이 우선) 전략 (영상)](https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32)
+        - [ ] [이진 트리: Level Order Traversal (영상)](https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리 순방: Preorder, Inorder, Postorder (영상)](https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진 트리가 맞는지 아닌지 확인 (영상)](https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+        - [ ] [이진트리에서 노느 삭제 (영상)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
+        - [ ] [Inorder Successor in a binary search tree (영상)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] 구현:
+        - [ ] insert    // 트리에 값 삽입
+        - [ ] get_node_count // 값이 저장된 개수 반환
+        - [ ] print_values // 제일 작은 값에서 큰 값의 순서대로 트리에 있는 모든 값 출력
+        - [ ] delete_tree // 트리 지우기
+        - [ ] is_in_tree // 트리에 주어진 값이 있는지 확인(있으면 true)
+        - [ ] get_height // 트리의 높이 확인 (노드가 하나 있는 트리는 높이가 1임)
+        - [ ] get_min   // 트리에 저장된 제일 작은 값 반환
+        - [ ] get_max   // 트리에 저장된 가장 큰 값 반환
+        - [ ] is_binary_search_tree // 이진 트리인지 아닌지
+        - [ ] delete_value // 값 삭제
+        - [ ] get_successor // 트리에 주어진 값보다 다음으로 가장 높은 값을 전달, 없으면 -1
 
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
