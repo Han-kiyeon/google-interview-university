@@ -388,9 +388,6 @@ OR:
     - 이 책은 두 파트로 구성:
         - 자료 구조와 알고리즘
             - 장점:
-                - is a good review as any algorithms textbook would be
-                - nice stories from his experiences solving problems in industry and academia
-                - code examples in C
                 - 알고리즘 교과서로 좋은 리뷰를 받음.
                 - 저자의 문제 풀이 경험으로 부터 나오는 좋은 이야기
                 - C code 로 보여줌.
@@ -445,73 +442,75 @@ OR:
 
 ### 2. Flashcard 를 이용하자.
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+기억이 안나는 문제를 해결하고자, 나는 작은 flashcard 사이트를 활용했다. 2가지 타입이 있는데, 일반적인 것과 코드를 구분해서 만들었고
+각각은 서로 다른 포멧으로 만들어 졌다.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+나는 처음 주로 이용한 것은 모바일 우선의 웹사이를 사용했다, 언제 어디서나 폰이나 타블릿으로 확인 할 수 있기 때문이다.
 
-Make your own for free:
+무료로 만들어 보자:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required by Google.
+- [Flashcards 사이트 목록](https://github.com/jwasham/computer-science-flash-cards)
+- [나의 flashcard 데이터 베이스](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): 내가 모든 카드들(에셈블리, 파이선, 머신 러닝 그리고 통계등)을 갖고 다녀봤는데, google 에서 요구하는 것들은 너무나도 많다.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Flashcard 를 위한 조언:**
+처음에는 당신이 답을 충분히 인지 하겠지만, 이것을 안다고 확인(mark) 하지 말자. 당신은 같은 카드를 진짜(?) 알기 전까지 보고 또보자. 반복하는 것은 당신의 뇌의 깊은 곳에 지식으로 남게 해줄것이다.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+다른 방법으로는 내가 사용하는 flashcard 사이트인 [Anki](http://ankisrs.net/) 를 사용하는 것이다. 이걸 사용하므로써 반복하게 되고 기억에 오래 남도록 도와 줄 것이다.
+그것은 user-friendly 하고, cloud 를 통해 동기화 되며 모든 플랫폼서 사용가능 하다. iOS 에서는 25 $ 이지만 다른 플랫폼에서는 무료다.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+나의 anki 를 위한 flashcard data 포멧: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. 리뷰, 리뷰, 또 리뷰
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+나는 ASCII, OSI 스택, Big-O 표기법 등에 대한 치트 시트를 가지고, 남는 시간에 그것들을 공부했다.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+프로그래밍 문제를 풀다가 쉬는 30분에 flashcard 를 읽고 또 읽었다.
 
-### 4. Focus
+### 4. 집중
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+너의 값진 시간을 방해하는 요소들이 많이 있다. 집중하고 또 집중하자.
 
-## What you won't see covered
+## 여기서 다루지 않는 것들
 
-This big list all started as a personal to-do list made from Google interview coaching notes. These are prevalent
-technologies but were not mentioned in those notes:
+여기에 있는 많은 리스트된 것들은 구글 인터뷰 코칭 노트에서 나온 개인적인 to-do 리스트이다. 이것은 일반적인 내용을 담고 있으며, 아래 언급한 것은 다루지 않는다.:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, 그리고 다른 프론트엔드 기술.
 
-## The Daily Plan
+## 일일 계획
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+어떤 주제는 하루에 끝낼수 있고, 어떤 것들은 몇 일이 걸릴 수도 있다. 어떤 것들은 어떤 구현도 없는 내용이 있을 수도 있다.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
+매일 나는 아래의 리스트에서 하나를 선택해서 관련 주제의 영상을 보고 관련된 내용을 구현했다.:
+
+- C - 함수의 인자로 struct * 를 넘겨 구현해노는 연습.
+- C++ - 빌트인 type 을 사용하지 않고 구현
+- C++ - 빌트인(built-in) type 을 사용하기(예, STL 의 std::list)
 - Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+- 파이썬 - 빌트인 type 사용(지속적인 연습을 위해)
+- 그리고 내가 제대로 구현했는지 확인하기 위해 test 를 작성하기. 대로는 간단히 assert 문을 사용한다.
+- 당신은 JAVA 나 다른 언어를 사용할 수 있습니다. 위의 내용은 제가 했던 내용입니다.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+당신은 위의 모든 언어를 연습할 필요가 없습니다. 하나만 선택하세요. [인터뷰를 위한 언어 선택](#pick-one-language-for-the-interview).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
+왜 이 모든 것들이 코드를 만드는 것인가?
+- 지칠 때 까지, 연습, 연습, 또 연습하라. 그리고 문제 없이 진행 할 수 있도록 하라. (어떤 문제는 많은 [Edge cases](https://en.wikipedia.org/wiki/Edge_case) 들이 있으니 기억 할 수 있도록 기록 해두자.)
+/**번역하면서 정확하게 "raw constraints" 에 대한 내용을 모르겠다.**/
 - Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+- 가비지 컬렉션(garbage collection)과 같은 도움없이 메모리 할당/해제와 같은 것을 연습해보자.(파이썬은 제외)
+- 빌트인 type 들을 사용하는 연습을 많이 하자(실제로는 내가 구현한 링크드 리스트를 제품 만드는데는 사용하지 않을꺼니까.)
 
-I may not have time to do all of these for every subject, but I'll try.
+나는 모든 주제에 대해 연습할 시간이 없었지만, 시도 해볼 것이다.
 
-You can see my code here:
+아래 github page 에 내가 작성한 코드들을 올려놓았다:
  - [C] (https://github.com/jwasham/practice-c)
  - [C++] (https://github.com/jwasham/practice-cpp)
  - [Python] (https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+당신은 모든 알고리즘의 내용을 기억할 필요는 없다.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+코드를 컴퓨터가 아닌 종이나 화이트 보드로 연습해보자. 샘플로 주어진 입력 값으로 테스트 해보자. 그다음에 컴퓨터로 코드를 만들어 테스트 하는 연습을 하는 것이다.
 
 ## Prerequisite Knowledge
 
