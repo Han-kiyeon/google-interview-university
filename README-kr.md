@@ -896,85 +896,88 @@ OR:
 
 - [ ] 그래프 (더 살펴보기):
 
-    - [ ] [6.006 Single-Source Shortest Paths Problem (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Dijkstra (video)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.006 Bellman-Ford (video)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
-    - [ ] [6.006 Speeding Up Dijkstra (video)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
-    - [ ] [Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6 (video)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
-    - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
-    - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
+    - [ ] [6.006 단순 최단 경로 (video)](https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Dijkstra 다익스트라 (영상)](https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.006 Bellman-Ford 벨만-포드(영상)](https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17)
+    - [ ] [6.006 다익스트라 속도 높이기 (영상)](https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18)
+    - [ ] [Aduni: 그래프 알고리즘 I - 위상(Topology) 정렬, 최소 스패닝 트리, 프림 알고리즘 -  강좌 6 (영상)]( https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [Aduni: 그래프 알고리즘 II - DFS, BFS, 크러스컬 알고리즘, 서로소(Union Find) 자료구조 - 강좌 7 (영상)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
+    - [ ] [Aduni: 그래프 알고리즘 III: 최단 경로 - 강좌 8 (영상)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
+    - [ ] [Aduni: 그래프 알고리즘 IV: 기하학 알고리즘 소개(geometric algorithms) - 강좌 9 (영상)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
     - [ ] [CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)
-    - [ ] [CS 61B 2014: Weighted graphs (video)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
-    - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [CS 61B 2014: 가중 그래프(Weighted graphs) (영상)](https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19)
+    - [ ] [그리디(Greedy Algorithms): 최소 스패닝 트리(Minimum Spanning Tree) (영상)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [Strongly Connected Components Kosaraju's Algorithm 그래프 알고리즘 (영상)](https://www.youtube.com/watch?v=RpgcYiky7uw)
 
 - Full Coursera Course:
-    - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
+    - [ ] [그래프 알고리즘 (영상)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
-- Yegge: If you get a chance, try to study up on fancier algorithms:
-    - [ ] Dijkstra's algorithm - see above - 6.006
+- Yegge: 만약 기회가 있다면, 고급 알고리즘을 배워보라:
+    - [ ] Dijkstra's algorithm 다익스트라 알고리즘 - 위에 - 6.006
     - [ ] A*
-        - [ ] [A Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
-        - [ ] [A* Pathfinding Tutorial (video)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
-        - [ ] [A* Pathfinding (E01: algorithm explanation) (video)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
+        - [ ] [A 정렬 알고리즘](https://en.wikipedia.org/wiki/A*_search_algorithm)
+        - [ ] [A* 길찾기 기초 (영상)](https://www.youtube.com/watch?v=KNXfSOx4eEE)
+        - [ ] [A* 길찾기 (E01: 알고리즘 설명) (영상)](https://www.youtube.com/watch?v=-L-WgKMFuhE)
 
-- I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
-    - [ ] single-source shortest path (Dijkstra)
-    - [ ] minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - [ ] check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - [ ] topological sort
-        - [ ] count connected components in a graph
+- 구현:
+    - [ ] DFS : adjacency list(인접리스트 + 재귀)
+    - [ ] DFS : adjacency list(인접리스트 + 반복문 + 스택)
+    - [ ] DFS : adjacency matrix(인접 매트릭스 + 재귀)
+    - [ ] DFS : adjacency matrix(인접 매트릭스 + 반복문 + 스택)
+    - [ ] BFS : adjacency list(인접리스트)
+    - [ ] BFS : adjacency matrix(인접 매트릭스)
+    - [ ] single-source shortest path 단순 최단 경로(다익스트라)
+    - [ ] minimum spanning tree 최소 스패닝 트리
+    - DFS-기반 알고리즘 (위의 Aduni 영상 참조):
+        - [ ] 사이클 확인 check for cycle (위상(Topology) 정렬이 요구)
+        - [ ] topological sort 위상 정렬
+        - [ ] count connected components in a graph 그래프에서 요소들의 연결 개수
         - [ ] list strongly connected components
-        - [ ] check for bipartite graph
+        - [ ] check for bipartite graph 이단(?) 그래프 확인
 
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+당신이 그래프 연습을 조금더 할 고 싶다면, 문서의 Skiena "책" 섹션을 참조해서 보도록 하자
 
-## Even More Knowledge
+## 더 많은 지식
 
-- ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
-        - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
-        - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
-    - when it is appropriate to use it
-    - how is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+- ### 재귀
+    - [ ] 재귀 및 역추적(backtracking)에 대한 스탠포드 강의:
+        - [ ] [Lecture 8 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
+        - [ ] [Lecture 9 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
+        - [ ] [Lecture 10 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 11 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
+    - 이것을 언제 사용해야 적절한가?
+    - 꼬리(tail) 재귀를 사용할 때와 아닐 때는 어떤게 더 나아?
+        - [ ] [꼬리 재귀(Tail Recursion) 은 뭐고, 왜 나쁜가?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [ ] [꼬리 재귀 (영상)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Object-Oriented Programming
-    - [ ] [Optional: UML 2.0 Series (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-    - [ ] Object-Oriented Software Engineering: Software Dev Using UML and Java (21 videos):
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - [OOSE: Software Dev Using UML and Java](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] SOLID OOP Principles:
-        - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
-        - [ ] [SOLID Design Patterns in C# (video)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
-        - [ ] [SOLID Principles (video)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
-        - [ ] S - [Single Responsibility Principle](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
-            - [more flavor](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
-        - [ ] O - [Open/Closed Principal](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification](https://en.wikipedia.org/wiki/Open/closed_principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
-        - [ ] L - [Liskov Substitution Principal](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
-        - [ ] I - [Interface segregation principle](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use
-            - [Interface Segregation Principle in 5 minutes (video)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
-        - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
-            - [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
-            - [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
+- ### 객체지향적 프로그래밍
+    - [ ] [선택: UML 2.0 시리즈 (video)](https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
+    - [ ] 객체 지향 소프트웨어 엔지리어링: UML과 자바로 소프트웨어 개발(21 영상들):
+        - 만약 당신이 객체지향과 객체지향 디자인에 대해 잘 알고 있다면 그냥 넘어가도록 하자.
+        - [OOSE:  UML과 자바로 소프트웨어 개발](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] SOLID OOP Principles(SOLID 객체지향 프로그래밍 원칙):
+        - [ ] [S.O.L.I.D 원칙-한글](https://ko.wikipedia.org/wiki/SOLID)
+        - [ ] [Bob Martin(밥 마틴) 객체지향의 원칙과 애자일 디자인 (영상)](https://www.youtube.com/watch?v=TMuno5RZNeE)
+        - [ ] [SOLID C# 디자인 패턴 (영상)](https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ)
+        - [ ] [SOLID 원칙 (영상)](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
+        - [ ] S - [Single Responsibility Principle 단일 책임 원칙](http://www.oodesign.com/single-responsibility-principle.html) | [Single responsibility to each Object 각 객체에 대한 단일 책임](http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html)
+            - [더 많은 내용](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk)
+        - [ ] O - [Open/Closed Principal 개방/폐쇄 원칙](http://www.oodesign.com/open-close-principle.html)  | [On production level Objects are ready for extension for not for modification 확장에는 열려 있으나 변경에는 닫혀 있어야 한다](https://en.wikipedia.org/wiki/Open/closed_principle)
+            - [더 많은 내용](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en)
+        - [ ] L - [Liskov Substitution Principal 리스코프 치환 원칙](http://www.oodesign.com/liskov-s-substitution-principle.html) | [Base Class and Derived class follow ‘IS A’ principal 프로그램의 정확성을 깨지 않않으면서 하위 타입의 인스턴스로 바꿀수 있어야 한다는 원칙](http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle)
+            - [더 많은 내용](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en)
+        - [ ] I - [Interface segregation principle 인터페이스 분리 원칙](http://www.oodesign.com/interface-segregation-principle.html) | clients should not be forced to implement interfaces they don't use 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나 보다 낫다.
+            - [5분만에 인터페이스 분리 원칙 보기(영상)](https://www.youtube.com/watch?v=3CtAfl7aXAQ)
+            - [더 많은 내용](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en)
+        - [ ] D -[Dependency Inversion principle 의존관계 역전 원칙](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects. 구체화에 의존하기 보다 추상화에 의존.
+            - [왜 의존관계 역전인지, 왜 중요한지 알아보자](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
+            - [더 많은 자료](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
 
-- ### Design patterns
-    - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
-    - [ ] Learn these patterns:
+- ### 디자인 패턴
+    - [ ] [빠르게 UML 리뷰(영상)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
+    - [ ] 패턴들(굳이 번역을 하지 않음):
+        - [한글 참조 블로그](http://wiki.gurubee.net/pages/viewpage.action?pageId=1507372)
+        - [JAVA 한글 참조 블로그-링크모음](http://sdw8001.tistory.com/122) 코드와 설명이 간결함.
         - [ ] strategy
         - [ ] singleton
         - [ ] adapter
@@ -992,152 +995,152 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
-    - [ ] [Chapter 6 (Part 1) - Patterns (video)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
-    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (video)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+    - [ ] [Chapter 6 (Part 1) - 패턴들 (영상)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
+    - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton , Observer , Delegation (영상)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
     - [ ] [Chapter 6 (Part 3) - Adapter, Facade, Immutable, Read-Only Interface, Proxy (video)](https://www.youtube.com/watch?v=7sduBHuex4c&index=13&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
-    - [ ] [Series of videos (27 videos)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+    - [ ] [관련 영상 리스트 (27 영상)](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
     - [ ] [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124)
-        - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
-    - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+          [번역판-Head First Design Patterns](http://book.naver.com/bookdb/book_detail.nhn?bid=1882446)
+        - 정식으로는 "Design Patterns: Elements of Reusable Object-Oriented Software" 책이지만, Head First 는 초보자에게 정말 좋은 책
+    - [ ] [간편 참조: 101가지 디자인 패턴과 개발자를 위한 팁](https://sourcemaking.com/design-patterns-and-tips)
 
-- ### Combinatorics (n choose k) & Probability
-    - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
-    - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
-    - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
-    - [ ] Khan Academy:
-        - Course layout:
-            - [ ] [Basic Theoretical Probability](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
+- ### 조합(n 개중에 k) 와 확률
+    - [ ] [수학 스킬: 팩토리얼/순열(Permutation)/조합을 찾는 방법 (영상)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
+    - [ ] [Make School: 확률 (영상)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
+    - [ ] [Make School: 확률과 마트로브 연쇄 (영상)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
+    - [ ] 칸 아카데미:
+        - [한글 칸아카데미 접근](https://ko.khanacademy.org/)
+        - 기본 코스:
+            - [ ] [이론적 확률 기초](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
+        - 영상들 - 41 (각각은 간단하다.):
+            - [ ] [확률 설명 (영상)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
-    - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
-        and be able to recognize them when an interviewer asks you them in disguise.
-    - Know what NP-complete means.
-    - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
+- ### NP, NP-Complete 과 근사 알고리즘
+    - [NP, NP-complete 위키](https://namu.wiki/w/P-NP%20%EB%AC%B8%EC%A0%9C)
+    - NP-Complete 문제에서 가장 유명한 외판원/배낭 문제를 알아두면 좋다.
+    - [ ] [계산 복잡성 (영상)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
-        - [ ] [Greedy Algs. II & Intro to NP Completeness (video)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
-        - [ ] [NP Completeness II & Reductions (video)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness III (Video)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [NP Completeness IV (video)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
+        - [ ] [그리디 알고리즘 II & NP Completeness 기초 (영상)](https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939)
+        - [ ] [NP Completeness II & Reductions (영상)](https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness III (영상)](https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [NP Completeness IV (영상)](https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18)
     - [ ] Skiena:
-        - [ ] [CSE373 2012 - Lecture 23 - Introduction to NP-Completeness (video)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
-        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness Proofs (video)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness Challenge (video)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [ ] [Complexity: P, NP, NP-completeness, Reductions (video)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
-    - [ ] [Complexity: Approximation Algorithms (video)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
-    - [ ] [Complexity: Fixed-Parameter Algorithms (video)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - Peter Norvig discusses near-optimal solutions to traveling salesman problem:
-        - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    - Pages 1048 - 1140 in CLRS if you have it.
+        - [ ] [CSE373 2012 - Lecture 23 - NP-Completeness 소개 (영상)](https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508)
+        - [ ] [CSE373 2012 - Lecture 24 - NP-Completeness 증명 (영상)](https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [CSE373 2012 - Lecture 25 - NP-Completeness 도전 (영상)](https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [ ] [복잡도: P, NP, NP-completeness, Reductions (영상)](https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22)
+    - [ ] [Complexity: 근접 알고리즘 (영상)](https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24)
+    - [ ] [Complexity: Fixed-Parameter Algorithms 고정 매개변수 알고리즘 (영상)](https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - 피터 노르빅(Peter Norvig) 은 외판원 문제에 대한 근접 최적 해법을 논의했다:
+        - [Jupyter 노트](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    - 페이지 1048 - CLRS 는 1140(Introduction to Algorithms)
 
-- ### Caches
-    - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-        - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
-        - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-    - [ ] CPU cache:
-        - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-        - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- ### 캐쉬
+    - [ ] LRU 캐쉬:
+        - [ ] [LRU 캐쉬의 마법 (100 Days of Google Dev) (영상)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [ ] [LRU 구현 (영상)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+        - [ ] [LeetCode - 146 LRU 캐쉬 (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
+    - [ ] CPU 캐쉬:
+        - [ ] [MIT 6.004 L15: 메모리 계층 구조 (영상)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+        - [ ] [MIT 6.004 L16: 캐쉬 문제 (영상)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for processes and threads see videos 1-11
-        - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
-    - [What Is The Difference Between A Process And A Thread?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
-    - Covers:
-        - Processes, Threads, Concurrency issues
-            - difference between processes and threads
-            - processes
-            - threads
-            - locks
-            - mutexes
-            - semaphores
-            - monitors
-            - how they work
-            - deadlock
-            - livelock
-        - CPU activity, interrupts, context switching
-        - Modern concurrency constructs with multicore processors
-        - Process resource needs (memory: code, static storage, stack, heap, and also file descriptors, i/o)
+- ### 프로세스와 쓰레드
+    - [ ] 컴퓨터 과학 162 - 운영체제 (25 영상):
+        - 아래 링크에서 프로세스와 쓰레드 관련된 영상은 영상 1에서 11까지임
+        - [운영체제와 시스템 프로그래밍 (영상)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
+    - [프로세스 A와 쓰레드 A는 무엇이 다른가?](https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread)
+    - 관련 내용:
+        - 프로세트, 쓰레드, 동시성(Concurrency) 문제
+            - difference between processes and threads (프로세스와 쓰레드의 차이점)
+            - processes (프로세스)
+            - threads (쓰레드)
+            - locks (락)
+            - mutexes (뮤텍스)
+            - semaphores (세마포어)
+            - monitors (모니터)
+            - how they work (위의 것들이 어떻게 동작하니?)
+            - deadlock (교착상태)
+            - livelock (레이스 컨디션?)
+        - CPU 활동, 인터럽트, 문맥교환(context switching)
+        - 최근 멀티코어 프로세스와 함께 동시성(concurrency)를 봐야함.
+        - 프로세스 자원 요구 (메모리: 코드, 정적 저장소, 스택, 힙과 파일 디스크립터, I/O)
         - Thread resource needs (shares above (minus stack) with other threads in the same process but each has its own pc, stack counter, registers, and stack)
-        - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
-        - Context switching
-            - How context switching is initiated by the operating system and underlying hardware
-    - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-    - [ ] concurrency in Python (videos):
-        - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-        - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-        - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
-            - [reference](http://www.dabeaz.com/GIL)
-        - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-        - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-        - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+        - 쓰레드 자원 요구 (프로세스에서 요구하는 자원 중 스택을 제외한 나머지는 다른 쓰레드(같은 프로세스 내에 있는)와 공유, 하지만 쓰레드 각각은 PC(program counter), SP(Stack pointer), 레지스터, 스택)
+        - 프로세스 forking(생성)은 새로운 프로세스가 메모리에 쓰기하기 전까지는 COW(copy-on-write) 정책을 통해 메모리를 공유한다. 쓰기를 한다면 모든 메모리를 새로운 프로세스를 위해 복사 한다.
+        - 문맥 교환(Context switching)
+            - H/W 와 함께 운영체제에 의해 문맥교환(context switching)이 어떻게 일어나는지 파악
+    - [ ] [C++ 쓰레드 (시리즈 - 10 영상들)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+    - [ ] 파이썬에서 동시성(concurrency) (영상):
+        - [ ] [쓰레드에 대한 짧은 시리즈들](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+        - [ ] [파이썬 쓰레드](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+        - [ ] [파이썬 GIL 의 이해(2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+            - [참고](http://www.dabeaz.com/GIL)
+        - [ ] [David Beazley - 처음으로 접하는 파이썬 병렬성(Concurrency): LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+        - [ ] [Keynote David Beazley - 재미있는 주제 (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+        - [ ] [파이썬 뮤텍스](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
-- ### Papers
-    - These are Google papers and well-known papers.
-    - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
-    - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-        - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-        - [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-    - [ ] [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-        - replaced by Colossus in 2012
-    - [ ] [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-        - mostly replaced by Cloud Dataflow?
-    - [ ] [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- ### 논문
+    - Google 논문과 잘 알려진 논문들이 있다.
+    - 이 모든 논문을 다 읽는다는 것은 너가 가진 시간보다 더 많은 시간을 들여야 할 것이다. 나는 선택적으로 읽기를 권장한다.
+    - [ ] [1978: 순차 프로세스 통신 Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+        - [Go 언어로 구현](https://godoc.org/github.com/thomas11/csp)
+        - [오래된 논문??](https://www.cs.cmu.edu/~crary/819-f09/)
+    - [ ] [2003: 구글 파일 시스템](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+    - [ ] [2004: MapReduce: 대형 클러스터에서 간략화된 데이터 처리]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+    - [ ] [2007: 모든 프로그래머가 알아야하는 메모리 (매우 내용이 많음, 그리고 저자가 몇몇 섹션은 건너뛰게 권유함)](https://www.akkadia.org/drepper/cpumemory.pdf)
     - [ ] [2012: Google's Colossus](https://www.wired.com/2012/07/google-colossus/)
-        - paper not available
-    - [ ] 2012: AddressSanitizer: A Fast Address Sanity Checker:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-        - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-    - [ ] 2013: Spanner: Google’s Globally-Distributed Database:
-        - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-        - [video](https://www.usenix.org/node/170855)
-    - [ ] [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
-    - [ ] [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
+        - 지금은 논문은 볼수 없음.
+    - [ ] 2012: AddressSanitizer: 빠른 어드레스 안전 검사기:
+        - [논문](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+        - [영상](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+    - [ ] 2013: Spanner: Google’s Globally-Distributed Database 구글의 전세계적인 분산 데이터 베이스:
+        - [논문](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+        - [영상](https://www.usenix.org/node/170855)
+    - [ ] [2014: 머신 러닝: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
+    - [ ] [2015: 연속적인 파이프 라인](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
     - [ ] [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
-    - [ ] [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
-    - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
+    - [ ] [2015: 텐서 플로우: 이기종의 분산 시스템의 대규모 머신 러닝](http://download.tensorflow.org/paper/whitepaper2015.pdf )
+    - [ ] [2015: 개발자가 코드를 찾는 방법 케이스 스터터디](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
-        - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-    - [ ] [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
-    - [ ] [Is TDD dead? (video)](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    - [ ] [Video series (152 videos) - not all are needed (video)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
-    - [ ] [Test-Driven Web Development with Python](http://www.obeythetestinggoat.com/pages/book.html#toc)
-    - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+- ### 테스팅
+    - 여기서 보여주는 내용:
+        - how unit testing works 유닛 테스트 방법
+        - what are mock objects mock 객체는 무엇?
+        - what is integration testing 통합 테스팅?
+        - what is dependency injection 의존 주입은 무엇?
+    - [ ] [제임스 바흐(James Bach)와 함께 하는 애자일 소프트웨어 테스팅 (영상)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [열린 강좌(James Bach) : 소프트웨어 테스팅 (영상)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - 테스팅 중심의 개발 (영상)](https://vimeo.com/83960706)
+        - [슬라이드](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
+    - [ ] [TDD 는 죽었다. 테스트여 영원하라](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+    - [ ] [TDD 가 죽었어? (영상)](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    - [ ] [영상 시리즈 (152 영상들) - 모두 필요하진 않아 (영상)](https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g)
+    - [ ] [파이썬으로 하는 테스트 중심의 웹 개발](http://www.obeythetestinggoat.com/pages/book.html#toc)
+    - [ ] Dependency injection 의존 주입:
+        - [ ] [영상](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [테스트코드는 어떻게?](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
-    - in an OS, how it works
-    - can be gleaned from Operating System videos
+- ### 스케줄링
+    - OS 에서 어떻게 동작하는지 확인
+    - 운영체제 관련 영상으로 부터 알아 볼 수 있다
 
-- ### Implement system routines
-    - understand what lies beneath the programming APIs you use
-    - can you implement them?
+- ### 시스템 루틴 구현
+    - 당신이 사용하는 프로그래밍 API 아래는 어떻게 구현이 되었는지 이해
+    - 구현 할 수 있나?
 
-- ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
-    - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
-        - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
-        - [ ] [3. Knuth-Morris Pratt](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+- ### 문자열 검색 & 조작
+    - [ ] [Sedgewick - 접미사 배열 (영상)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] [Sedgewick - 내부문자열(Substring) 검색 (영상)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [1. SubString 검색 소개](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
+        - [ ] [2. Brute-Force Substring 검색](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)
+        - [ ] [3. Knuth-Morris Pratt KMP 알고리즘](https://www.youtube.com/watch?v=n-7n-FDEWzc&index=3&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
         - [ ] [4. Boyer-Moore](https://www.youtube.com/watch?v=fI7Ch6pZXfM&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=2)
         - [ ] [5. Rabin-Karp](https://www.youtube.com/watch?v=QzI0p6zDjK4&index=1&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [텍스트에서 패턴 찾기 (영상)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
+    더 자세히 보고 싶다면 아래 [Additional Detail on Some Subjects](#additional-detail-on-some-subjects) 에서 "문자열 매칭" 섹션을 보기 바란다
 
 ---
 
