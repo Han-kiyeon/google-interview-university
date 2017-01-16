@@ -205,21 +205,21 @@ My story: [구글 인터뷰 준비를 위해 왜 8 달 동안 공부를 했는�
 
 ## Don't feel you aren't smart enough
 - 구글 엔지니어는 스마트 하다. 그러나 충분히 스마트 하지 않는(?) 사람도 있다. 아래의 Youtube 는 꼭 보자.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [The myth of the Genius Programmer 천재 프로그래머에 대한 미신](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [혼자 가는건 너무 위험해: 기술이라는 보이지 않는 괴물과 싸워야해](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## About Google
 
-- [x] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [x] For students - [Google Careers: 기술 개발 가이드](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] 구글에서 일거리 찾기:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+    - [ ] [검색의 진화 (영상)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [검색이 동작하는 방법 - 이야기](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [검색 동작 방법](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [검색 동작 방법 - Matt Cutts (영상)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [어떻게 구굴은 검색 알고리즘을 향상시키는가? (영상)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] 시리즈들:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [구글이 모바일 검색을 처리하는 방법](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [우리의 요구를 찾기 위한 구글의 비밀 스터디](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
     - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
     - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
 - [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
@@ -260,7 +260,7 @@ My story: [구글 인터뷰 준비를 위해 왜 8 달 동안 공부를 했는�
         - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] Cracking The Coding Interview 한글 번역판:
-        - [ ] [게리 엘 멕도웰 지음, 이병준 옮김 - http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&barcode=9788966260485]
+        - [ ] [게리 엘 멕도웰 지음, 이병준 옮김](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&barcode=9788966260485)
     - [ ] How to Get a Job at the Big 4:
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
@@ -1144,222 +1144,224 @@ OR:
 
 ---
 
-## System Design, Scalability, Data Handling
-- **You can expect system design questions if you have 4+ years of experience.**
-- Scalability and System Design are very large topics with many topics and resources, since
-      there is a lot to consider when designing a software/hardware system that can scale.
-      Expect to spend quite a bit of time on this.
-- Considerations from Yegge:
-    - scalability
-        - Distill large data sets to single values
-        - Transform one data set to another
-        - Handling obscenely large amounts of data
-    - system design
-        - features sets
-        - interfaces
-        - class hierarchies
-        - designing a system under certain constraints
-        - simplicity and robustness
-        - tradeoffs
-        - performance analysis and optimization
-- [ ] **START HERE**: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-- [ ] [How Do I Prepare To Answer Design Questions In A Technical Inverview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
-- [ ] [8 Things You Need to Know Before a System Design Interview](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
-- [ ] [Algorithm design](http://www.hiredintech.com/algorithm-design/)
-- [ ] [Database Normalization - 1NF, 2NF, 3NF and 4NF (video)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
-- [ ] [System Design Interview](https://github.com/checkcheckzz/system-design-interview) - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
-- [ ] [How to ace a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ] [How long does it take to make a context switch?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
-- [ ] [Transactions Across Datacenters (video)](https://www.youtube.com/watch?v=srOgpXECblk)
-- [ ] [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-- [ ] Paxos Consensus algorithm:
-    - [short video](https://www.youtube.com/watch?v=s8JqcZtvnsM)
-    - [extended video with use case and multi-paxos](https://www.youtube.com/watch?v=JEpsBg0AO6o)
-    - [paper](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
-- [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
-- [ ] [NoSQL Patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
-- [ ] Scalability:
-    - [ ] [Great overview (video)](https://www.youtube.com/watch?v=-W9F__D3oY4)
-    - [ ] Short series:
-        - [Clones](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
-        - [Database](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
-        - [Cache](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
-        - [Asynchronism](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
-    - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
-    - [ ] [Fallacies of Distributed Computing Explained](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
-    - [ ] [Pragmatic Programming Techniques](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
-        - [extra: Google Pregel Graph Processing](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
-    - [ ] [Jeff Dean - Building Software Systems At Google and Lessons Learned (video)](https://www.youtube.com/watch?v=modXC5IWTJI)
-    - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-    - [ ] [Scaling mobile games to a global audience using App Engine and Cloud Datastore (video)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
-    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (video)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
-    - [ ] [The Importance of Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
+## 시스템 설계, 확장, 자료 처리 (System Design, Scalability, Data Handling)
+- **4년 이상의 경험을 갖고 있다면 시스템 디자인 질문에 대한 준비를 해야 한다.**
+- 확장 가능한 소프트웨어/하드웨어를 설계하는 데는 많은 고민이 필요하기 때문에 시스템 확장 및 설계는 매우 많은 주제와 자원(자료)들이 필요하다.
+- Yegge 가 얘기하는 고려들:
+    - 확장성
+        - 큰 데이터 세트를 하나의 값으로 증류(Distill)
+        - Transform one data set to another 하나의 자료 세트에서 다른 자료로 변경
+        - Handling obscenely large amounts of data  엄청 많은 양의 데이터 처리
+    - 시스템 설계
+        - features sets 설계 특징
+        - interfaces 인터페이스
+        - class hierarchies 클래스 계층
+        - designing a system under certain constraints 시스템 제약 사항하에 설계
+        - simplicity and robustness 단순하고 견고하게
+        - tradeoffs 상충 관계
+        - performance analysis and optimization 성능 분석 및 최적화
+- [ ] **여기서 부터 시작하자**: [HiredInTech 의 시스템 설계](http://www.hiredintech.com/system-design/)
+- [ ] [기술 명접에서 설계관련 질문은 어떻게 대답할까?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023)
+- [ ] [시스템 설계 인터뷰 보기전에 알아야 할 8가지](http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/)
+- [ ] [알고리즘 설계](http://www.hiredintech.com/algorithm-design/)
+- [ ] [데이터 베이스 표준화 Database Normalization - 1NF, 2NF, 3NF and 4NF (영상)](https://www.youtube.com/watch?v=UrYLYV7WSHM)
+- [ ] [시스템 설계 인터뷰](https://github.com/checkcheckzz/system-design-interview) - 여기에 많은 내용들이 있다. 기사(articles) 와 예제도 있다.
+- [ ] [시스템 디자인 인터뷰에서 잘하는 방법](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+- [ ] [모두가 알아야 하는 숫자(?) Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [ ] [문맥 교환(context switch)에 얼마나 많은 시간이 걸릴까?](http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html)
+- [ ] [데이터 센터간 트랜잭션 Transactions Across Datacenters (영상)](https://www.youtube.com/watch?v=srOgpXECblk)
+- [ ] [평범한 영어로 CAP 이론을 소개](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+- [ ] Paxos Consensus 알고리즘:
+    - [Paxos 알고리즘 소개 - 한글](http://zetawiki.com/wiki/Paxos_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+    - [짧은 소개 영상](https://www.youtube.com/watch?v=s8JqcZtvnsM)
+    - [다중-paxos 와 사용 예제와 함께 보여주는 영상](https://www.youtube.com/watch?v=JEpsBg0AO6o)
+    - [논문](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
+- [ ] [일관된 해슁](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+- [ ] [NoSQL 패턴들](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
+- [ ] 확장성:
+    - [ ] [놀라운 개념 소개 (영상)](https://www.youtube.com/watch?v=-W9F__D3oY4)
+    - [ ] 짧은 시리즈:
+        - [클론](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+        - [데이터 베이스](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+        - [캐쉬](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+        - [비동기](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
+    - [ ] [확장 가능한 웹 아키텍쳐와 분산 시스템](http://www.aosabook.org/en/distsys.html)
+    - [ ] [분산 컴퓨팅의 오류에 대한 설명](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+    - [ ] [실용적인 프로그래밍 기법](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+        - [추가: 구글 Pregel 그래프 처리](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
+    - [ ] [Jeff Dean - 구글에서 소프트웨어 시스템 빌딩과 교훈 (영상)](https://www.youtube.com/watch?v=modXC5IWTJI)
+    - [ ] [확장을 위한 시스템 아키텍처링 소개](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+    - [ ] [앱 엔진과 클라우드 데이터 저장소를 사용해서 모바일 게임을 모든 잠재 고객에게 확장 (영상)](https://www.youtube.com/watch?v=9nWyWwY2Onc)
+    - [ ] [How Google Does Planet-Scale Engineering for Planet-Scale Infra (영상)](https://www.youtube.com/watch?v=H4vMcD7zKM0)
+    - [ ] [알고리즘의 중요성](https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/)
     - [ ] [Sharding](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
-    - [ ] [Scale at Facebook (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
-    - [ ] [Scale at Facebook (2012), "Building for a Billion Users" (video)](https://www.youtube.com/watch?v=oodS71YtkGU)
-    - [ ] [Engineering for the Long Game - Astrid Atkinson Keynote(video)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
-    - [ ] [7 Years Of YouTube Scalability Lessons In 30 Minutes](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
-        - [video](https://www.youtube.com/watch?v=G-lGCC4KKok)
-    - [ ] [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
-    - [ ] [How to Remove Duplicates in Large Datasets](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
+          - 추가 설명 : [데이터베이스의 샤딩 - 한글](http://yeoubi.net/blog/database-sharding/)
+    - [ ] [페이스북에서 확장 (2009)](https://www.infoq.com/presentations/Scale-at-Facebook)
+    - [ ] [페이스북에서 확장 (2012), "10억 사용자를 위한 구축" (영상)](https://www.youtube.com/watch?v=oodS71YtkGU)
+    - [ ] [Long(?) 게임을 위한 엔지니어링 - Astrid Atkinson 키노트(영상)](https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4)
+    - [ ] [30분에 보는 7년동안 Youtube 확장성 배움들](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html)
+        - [영상](https://www.youtube.com/watch?v=G-lGCC4KKok)
+    - [ ] [8 개의 가상 머신으로 매일 10억 트랜젝션을 어떻게 PayPal 을 확장한 건가?](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)
+    - [ ] [대량 데이터 셋에서 중복된 값을 제거하는 방법](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [A look inside Etsy's scale and engineering culture with Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
-    - [ ] [What Led Amazon to its Own Microservices Architecture](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [To Compress Or Not To Compress, That Was Uber's Question](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [무엇이 아마존을 자신만의 마이크로 서비스 아키텍쳐로 이끌게 하는가?](http://thenewstack.io/led-amazon-microservices-architecture/)
+    - [ ] [압축하지 않거나 압축하거나, 그것이 Uber 의 질문이었다.](https://eng.uber.com/trip-data-squeeze/)
     - [ ] [Asyncio Tarantool Queue, Get In The Queue](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
-    - [ ] [When Should Approximate Query Processing Be Used?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
-    - [ ] [Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
-    - [ ] [Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
-    - [ ] [Egnyte Architecture: Lessons Learned In Building And Scaling A Multi Petabyte Distributed System](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-    - [ ] [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
-    - [ ] [The Image Optimization Technology That Serves Millions Of Requests Per Day](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
-    - [ ] [A Patreon Architecture Short](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
-    - [ ] [Tinder: How Does One Of The Largest Recommendation Engines Decide Who You'll See Next?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
-    - [ ] [Design Of A Modern Cache](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
-    - [ ] [Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
-    - [ ] [A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
-    - [ ] [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
-    - [ ] [Does AMP Counter An Existential Threat To Google?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
-    - [ ] [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
-    - [ ] [Latency Is Everywhere And It Costs You Sales - How To Crush It](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
-    - [ ] [Serverless (very long, just need the gist)](http://martinfowler.com/articles/serverless.html)
-    - [ ] [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
-    - [ ] [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
-    - [ ] [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
-    - [ ] [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
-    - [ ] [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
-    - [ ] [PlentyOfFish Architecture](http://highscalability.com/plentyoffish-architecture)
-    - [ ] [Salesforce Architecture - How They Handle 1.3 Billion Transactions A Day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
-    - [ ] [ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
-    - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
-    - [ ] Twitter:
-        - [O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter" (video)](https://www.youtube.com/watch?v=5cKTP36HVgI)
-        - [Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
-    - For even more, see "Mining Massive Datasets" video series in the Video Series section.
-- [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
-    - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
-    - flow:
-        1. Understand the problem and scope:
-            - define the use cases, with interviewer's help
-            - suggest additional features
-            - remove items that interviewer deems out of scope
-            - assume high availability is required, add as a use case
-        2. Think about constraints:
-            - ask how many requests per month
-            - ask how many requests per second (they may volunteer it or make you do the math)
-            - estimate reads vs. writes percentage
-            - keep 80/20 rule in mind when estimating
-            - how much data written per second
-            - total storage required over 5 years
-            - how much data read per second
-        3. Abstract design:
-            - layers (service, data, caching)
-            - infrastructure: load balancing, messaging
-            - rough overview of any key algorithm that drives the service
-            - consider bottlenecks and determine solutions
-    - Exercises:
-        - [Design a CDN network: old article](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-        - [Design a random unique ID generation system](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Design an online multiplayer card game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
-        - [Design a key-value database](http://www.slideshare.net/dvirsky/introduction-to-redis)
-        - [Design a function to return the top k requests during past time interval]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
-        - [Design a picture sharing system](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
-        - [Design a recommendation system](http://ijcai13.org/files/tutorial_slides/td3.pdf)
-        - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
-        - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
+    - [ ] [대략적으로 쿼리의 처리는 언제 처리해야 하나?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
+    - [ ] [장애 조치를 위한, 네이티브 멀티홈 아키텍처를 위한 하나의 데이터 센터에서 구글의 트랜잭션 처리 Google's Transition From Single Datacenter, To Failover, To A Native Multihomed Architecture]( http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
+    - [ ] [Spanner 스패너](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)
+    - [ ] [Egnyte 건축술: 다중 분산된 페타 바이트 구축 및 확장을 위한 교훈](http://highscalability.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
+    - [ ] [기술 학습 주도 프로그래밍: 새로운 세계를 위한 새로운 프로그래밍](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
+    - [ ] [하루 당 수백만의 요청을 처리하는 이미지 최적화 기술](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] [짧은 Patreon 아키텍쳐](http://highscalability.com/blog/2016/2/1/a-patreon-architecture-short.html)
+    - [ ] [Tinder: 가장 큰 추천 엔진이 어떻게 다음 볼 사람을 결정할까?](http://highscalability.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
+    - [ ] [현대의 캐쉬의 설계](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
+    - [ ] [페이스북 규모에서 라이브 비디오 스트리밍 Live Video Streaming At Facebook Scale](http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html)
+    - [ ] [아마존 AWS 에서 11 백만이상의 사용자를 위해 초보자 확장 가이드](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
+    - [ ] [어떻게 Docker 효과 지연을 어떻게 사용? How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)
+       - Docker 를 위한 책 [아마존 웹 서비스를 다루는 기술](http://pyrasis.com/book/TheArtOfAmazonWebServices)
+    - [ ] [구글에서 AMP는 잠재적인 위협 요소가 될까?](http://highscalability.com/blog/2015/12/14/does-amp-counter-an-existential-threat-to-google.html)
+       - AMP(Accelerated Mobile Page) 가속화된 모바일 페이지
+    - [ ] [Netflix 스택의 360 도 시각](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)
+    - [ ] [지연은 어디서나 발생하며, 그것은 언제나 비용을 발생시킨다. - 어떻게 그것을 줄일수 있지?](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+    - [ ] [Serverless (매우 김, 요점만 보도록)](http://martinfowler.com/articles/serverless.html)
+    - [ ] [인스타그램의 힘: 수백개의 인스턴스들, 여러 기술들](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances)
+    - [ ] [Cinchcast 아키텍쳐 - 매일 1500 시간의 오디오를 생산하는 아키텍쳐](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)
+    - [ ] [Justin.Tv's 라이브 비디오 방송 아키텍쳐](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)
+    - [ ] [Payfish의 소셜 게임 아키텍쳐 - 5억만명의 매월 사용자와 성장](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)
+    - [ ] [TripAdvisor 아키텍쳐 - 4억만 방문자, 20억 동적 페이지 뷰들, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)
+    - [ ] [PlentyOfFish 아키텍쳐](http://highscalability.com/plentyoffish-architecture)
+    - [ ] [Salesforce 아키텍쳐 - 하루에 13억 트랜잭션을 처리하는가?](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html)
+    - [ ] [ESPN 규모에 따른 아키텍쳐 - 초당 100,000 Duh Nuh Nuhs 를 수행](http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html)
+    - [ ] 서비스들 서로 잘 붙을 수 있는 몇 가지 기술에 대한 정보는 아래의 "메세징, 직렬화, 대기(큐) 시스템"에서 확인 가능하다.
+    - [ ] 트위터:
+        - [O'Reilly MySQL CE 2011: Jeremy Cole, "크고 작은 데이터 @Twitter" (영상)](https://www.youtube.com/watch?v=5cKTP36HVgI)
+        - [규모의 일정 Timelines at Scale](https://www.infoq.com/presentations/Twitter-Timeline-Scalability)
+    - 더 많이 보기 위해, "Mining Massive Datasets" 비디오 시리즈들을 참고 바란다.
+- [ ] 시스템 설계 프로세스 연습: 여기에 몇 가지 논문이나 실상에서 어떻게 처리되고 있는지에 대한 몇몇 문서들을 통해 시도해 볼 수 있을 것이다.:
+    - 리뷰: [HiredInTech로 부터 시스템 설계](http://www.hiredintech.com/system-design/)
+    - [치트 시트](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - flow 흐름:
+        1. 문제와 범위 이해:
+            - 인터뷰하는 사람의 도움을 받아 유스 케이스(use case) 를 정의하자.
+            - 추가적인 feature(특징)을 제안하자
+            - 범위에서 벗어나는 요소는 제거하자
+            - 높은 유효성(availability) 가 필요하다고 가정하면, use case들을 추가하자.
+        2. 제약에 대해 고려하자:
+            - 한달에 얼마나 많은 요청이 있는지 물어보자.
+            - 초당 얼마나 많은 요청이 있는지 물어보자 (그들은 지원자에게 수학적인 것을 하도록 만들 것이다.)
+            - estimate reads vs. writes percentage (평가를 읽기 vs. 비율을 쓰기)
+            - 평가를 할 때, 80 대 20 법칙을 항상 마음에 담아두자
+            - 초당 얼마나 많은 데이터를 쓰는지?
+            - 5년동안 필요한 총 저장소 크기
+            - 얼마나 많은 데이터를 초당 읽는지
+        3. 추상 설계:
+            - 레이어 layers (서비스, 데이타, 캐슁)
+            - 하부 구조 infrastructure: load balancing, messaging (로드 밸런싱, 메세징)
+            - 서비스를 시작하기 위한 중요한 알고리즘의 간단한 리뷰
+            - 병목현상에 대한 고려 및 해결책을 결정
+    - 연습들:
+        - [CDN 네트웍 설계: 오래된 문서](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
+        - [랜덤 고유 ID 를 생성하는 시스템의 설계](https://blog.twitter.com/2010/announcing-snowflake)
+        - [온라인 다중 사용자 카드 게임 설계](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
+        - [키-값 데이터 베이스 설계](http://www.slideshare.net/dvirsky/introduction-to-redis)
+        - [과거 시간 간격동안 top K 요청을 반환하는 함수 설계]( https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf)
+        - [사진 공유 시스템 설계](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+        - [추천 시스템 설계](http://ijcai13.org/files/tutorial_slides/td3.pdf)
+        - [URL-shortener 시스템 설계](http://www.hiredintech.com/system-design/the-system-design-process/)
+        - [캐쉬 시스템 설계](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
 ---
 
-## Final Review
+## 마지막 리뷰
 
-    This section will have shorter videos that can you watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    이 섹션은 중요한 컨셉에 대해 빠르게 리뷰하기 위한 짧은 영상들로 구성했다.
+    이것은 당신이 지식을 상기 시키는데 아주 훌륭하다.
 
-- [ ] Series of 2-3 minutes short subject videos (23 videos)
-    - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (18 videos):
-    - [Videos](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
-- [ ] [Sedgewick Videos - Algorithms I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
-    - [ ] [01. Union-Find](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-    - [ ] [02. Analysis of Algorithms](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
-    - [ ] [03. Stacks and Queues](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
-    - [ ] [04. Elementary Sorts](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
-    - [ ] [05. Mergesort](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
-    - [ ] [06. Quicksort](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
-    - [ ] [07. Priority Queues](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
-    - [ ] [08. Elementary Symbol Tables](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
-    - [ ] [09. Balanced Search Trees](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
-    - [ ] [10. Geometric Applications of BST](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
-    - [ ] [11. Hash Tables](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
-- [ ] [Sedgewick Videos - Algorithms II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
-    - [ ] [01. Undirected Graphs](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
-    - [ ] [02. Directed Graphs](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
-    - [ ] [03. Minimum Spanning Trees](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
-    - [ ] [04. Shortest Paths](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
-    - [ ] [05. Maximum Flow](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
-    - [ ] [06. Radix Sorts](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
+- [ ] 2-3분짜리 여러 주제에 대한 시리즈 영상 (23 영상들):
+    - [영상들](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] 2-5분짜리 여러 주제에 대한 시리즈 영상 (18 영상들):
+    - [영상들](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] [Sedgewick Videos - 알고리즘 I](https://www.youtube.com/user/algorithmscourses/playlists?shelf_id=2&view=50&sort=dd)
+    - [ ] [01. Union-Find 유니온 찾기](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
+    - [ ] [02. 알고리즘 분석](https://www.youtube.com/watch?v=ZN-nFW0mEpg&list=PLe-ggMe31CTf0_bkOhh7sa5uqeppp3Sr0)
+    - [ ] [03. 스택과 큐](https://www.youtube.com/watch?v=TIC1gappbP8&list=PLe-ggMe31CTe-9jhnj3P_3mmrCh0A7iHh)
+    - [ ] [04. 기본 정렬](https://www.youtube.com/watch?v=CD2AL6VO0ak&list=PLe-ggMe31CTe_5WhGV0F--7CK8MoRUqBd)
+    - [ ] [05. Mergesort 병합정렬](https://www.youtube.com/watch?v=4nKwesx_c8E&list=PLe-ggMe31CTeunC6GZHFBmQx7EKtjbGf9)
+    - [ ] [06. Quicksort 퀵 정렬](https://www.youtube.com/watch?v=5M5A7qPWk84&list=PLe-ggMe31CTeE3x2-nF1-toca1QpuXwE1)
+    - [ ] [07. Priority Queues 우선순위 큐](https://www.youtube.com/watch?v=G9TMe0KC0w0&list=PLe-ggMe31CTducy9LDiGVkdSv0NfiRwn5)
+    - [ ] [08. Elementary Symbol Tables 기본 심볼 테이블](https://www.youtube.com/watch?v=up_nlilw3ac&list=PLe-ggMe31CTc3a8nKRDxFZZrWrBvkc9SG)
+    - [ ] [09. Balanced Search Trees 균등 검색 트리](https://www.youtube.com/watch?v=qC1BLLPK_5w&list=PLe-ggMe31CTf7jHH_mFT50kayjCEA6Rhu)
+    - [ ] [10. Geometric Applications of BST BST 의 기하학적 으용](https://www.youtube.com/watch?v=Wl30aGAp6TY&list=PLe-ggMe31CTdBsRIw0hXln0hilRs-DqAx)
+    - [ ] [11. 해쉬 테이블](https://www.youtube.com/watch?v=QA8fJGO-i9o&list=PLe-ggMe31CTcKxIRGqqThMts2eHtSrf11)
+- [ ] [Sedgewick Videos - 알고리즘 II](https://www.youtube.com/user/algorithmscourses/playlists?flow=list&shelf_id=3&view=50)
+    - [ ] [01. Undirected Graphs 방향이 지정되지 않은 그래프](https://www.youtube.com/watch?v=GmVhD-mmMBg&list=PLe-ggMe31CTc0zDzANxl4I2MhMoRVlbRM)
+    - [ ] [02. Directed Graphs 방향이 있는 그래프](https://www.youtube.com/watch?v=_z-JsVaUS40&list=PLe-ggMe31CTcEwaU8a1P1Gd95A77HV85K)
+    - [ ] [03. Minimum Spanning Trees 최소 스패닝 트리](https://www.youtube.com/watch?v=t8fNk9tfVYY&list=PLe-ggMe31CTceUZxDesGfHGLE7kcSafqj)
+    - [ ] [04. Shortest Paths 최단 경로](https://www.youtube.com/watch?v=HoGSiB7tSeI&list=PLe-ggMe31CTePpG3jbeOTsnGUGZDKxgZD)
+    - [ ] [05. Maximum Flow 최대 흐름](https://www.youtube.com/watch?v=rYIKlFstBqE&list=PLe-ggMe31CTduQ68XQ-sVj32wYJIspTma)
+    - [ ] [06. Radix Sorts Radix 정렬](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
     - [ ] [07. Tries](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
-    - [ ] [08. Substring Search](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
-    - [ ] [09. Regular Expressions](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
-    - [ ] [10. Data Compression](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
-    - [ ] [11. Reductions](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
-    - [ ] [12. Linear Programming](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
-    - [ ] [13. Intractability](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
+    - [ ] [08. Substring Search subString 검색](https://www.youtube.com/watch?v=QzI0p6zDjK4&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66)
+    - [ ] [09. Regular Expressions 정규 표현](https://www.youtube.com/watch?v=TQWNQsJSPnk&list=PLe-ggMe31CTetTlJWouM42fyttyKPgSDh)
+    - [ ] [10. Data Compression 데이터 압축](https://www.youtube.com/watch?v=at9tjpxcBh8&list=PLe-ggMe31CTciifRRo6yY0Yt0mzgIXXVZ)
+    - [ ] [11. Reductions 감축](https://www.youtube.com/watch?v=Ow5x-ooMGv8&list=PLe-ggMe31CTe_yliW5vc3yO-dj1LSSDyF)
+    - [ ] [12. Linear Programming 선형 프로그래밍](https://www.youtube.com/watch?v=rWhcLyiLZLA&list=PLe-ggMe31CTdy6dKzMgkWFuTTN1H8B-E1)
+    - [ ] [13. Intractability 다루기 힘든 문제](https://www.youtube.com/watch?v=6qcaaDp4cdQ&list=PLe-ggMe31CTcZCjluBHw53e_ek2k9Kn-S)
 
 ---
 
-## Coding Question Practice
+## 코딩 문제 연습
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
+이제 당신은 컴퓨터 과학 주제를 위에서 모두 살펴보았다, 이제는 코딩 문제에 답변하기 위해 연습해야 한다.
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**코딩 문제연습은 문제를 프로그래밍을 위해 외어야 하는 것들은 없다. 연습을 많이 하란 얘긴듯**
 
-Why you need to practice doing programming problems:
-- problem recognition, and where the right data structures and algorithms fit in
-- gathering requirements for the problem
-- talking your way through the problem like you will in the interview
-- coding on a whiteboard or paper, not a computer
-- coming up with time and space complexity for your solutions
-- testing your solutions
+왜 당신은 프로래밍 문제를 풀기 위해 연습이 필요한가:
+- 문제 인지(recognition), 그리고 알맞은 자료 구조 및 알고리즘을 찾아야 함
+- 문제로 부터 요구사항을 모아야함
+- 인터뷰를 받는 것을 대비해서 니가 어떻게 풀것인지 말해보자
+- 코딩을 컴퓨터가 아닌 화이트 보드나 종이에 해보자
+- 너의 코드에 대한 시간/공간 복잡도를 생각해보자
+- 테스트
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
+이것을 위해 훌륭한 진입방법을 알려줄 사이트를 소개한다. 물론, 관련 책들을 봐도 무방하지만, 내가 찾은 사이트는 정말 대단하다.:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-[My Process for Coding Interview (Book) Exercises](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
+[코딩 인터뷰 연습을 위한 나만의 프로세스](https://googleyasheck.com/my-process-for-coding-interview-exercises/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick.
+집에 화이트 보드가 없다고? 그럴수도 있다. 나는 이상한 사람이라 큰 화이트 보드가 있다. 화이트보드 대신, 미술용품점에서 큰 드로잉 패드를 사자. 그러면 당신은 소파에 앉아 연습을 할 수 있다. 이것은 나의 "소파 화이트 보드"이다. 나는 사진에 펜도 같이 넣었다. 당신이 펜을 사용하면, 또한 지울수도 있다. 그러면 빨리 지저분해진다.
 
-![my sofa whiteboard](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
+![나의 소파 화이트 보다](https://dng5l3qzreal6.cloudfront.net/2016/Oct/art_board_sm_2-1476233630368.jpg)
 
-Supplemental:
+보충:
 
-- [Mathematics for Topcoders](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
-- [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
-- [MIT Interview Materials](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Exercises for getting better at a given language](http://exercism.io/languages)
+- [TopCoders 를 위한 수학](https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/)
+- [Dynamic Programming 동적프로그래밍– 초보에서 고급으로](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+- [MIT 인터뷰 자료](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
+- [언어(JAVA/C++ 등) 사용을 더 잘 할 수 있는 연습을 도와줌](http://exercism.io/languages)
 
-**Read and Do Programming Problems (in this order):**
+**프로그래밍 문제를 읽고 풀어보자(순서대로):**
 
 - [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
-    - answers in C, C++ and Java
+    - 답변은 C++ / C / JAVA 로 됨
+    - 번역판 : [한빛 미디어, 프로그래밍 면접 이렇게 준비한다](http://www.hanbit.co.kr/store/books/look.php?p_code=B9005920688)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+    - 답변은 JAVA 로만
+    - [번역 게리 엘 멕도웰 지음, 이병준 옮김](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&barcode=9788966260485)
 
-See [Book List above](#book-list)
 
-## Coding exercises/challenges
+위의 [책 리스트](#book-list)
 
-Once you've learned your brains out, put those brains to work.
-Take coding challenges every day, as many as you can.
+## 코딩 연습/도전
 
-- [ ] [How to Find a Solution](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
-- [ ] [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+일단, 당신의 두뇌를 배우게 했다면, 그 두뇌를 일하게 하세요.
+코딩 문제를 당신이 할 수 있는 한 많이 해보세요
 
-Challenge sites:
+- [ ] [해결책을 찾는 방법](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/)
+- [ ] [Topcoder 문제를 해독하는 방법](https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/)
+
+문제 제공 사이트:
 - [LeetCode](https://leetcode.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
@@ -1370,41 +1372,41 @@ Challenge sites:
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Maybe:
-- [Mock interviewers from big companies](http://www.gainlo.co/)
+아마도:
+- [큰 회사로 부터 가상의 인터뷰보는 사람들](http://www.gainlo.co/)
 
-## Once you're closer to the interview
+## 일단 당신이 인터뷰에 가까이 갔다.
 
-- [ ] Cracking The Coding Interview Set 2 (videos):
-    - [Cracking The Code Interview](https://www.youtube.com/watch?v=4NIb9l3imAo)
+- [ ] Cracking The Coding Interview 세트 2 (videos):
+    - [Cracking The Code Interview 영상](https://www.youtube.com/watch?v=4NIb9l3imAo)
     - [Cracking the Coding Interview - Fullstack Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
-    - [Ask Me Anything: Gayle Laakmann McDowell (author of Cracking the Coding Interview)](https://www.youtube.com/watch?v=1fqxMuPmGak)
+    - [무엇이든 물어보세요: Gayle Laakmann McDowell (저자)](https://www.youtube.com/watch?v=1fqxMuPmGak)
 
-## Your Resume
+## 이력서
 
-- [Ten Tips for a (Slightly) Less Awful Resume](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
+- [나쁘지 않는 이력서를 만들기 위한 10가지 팁](http://steve-yegge.blogspot.co.uk/2007_09_01_archive.html)
 - See Resume prep items in Cracking The Coding Interview and back of Programming Interviews Exposed
+- Cracking The Coding Interview 에 이력서 준비 챕터를 보고, "프로그래밍 면접 이렇게 준비한다"책을 보자.
 
 
-## Be thinking of for when the interview comes
+## 인터뷰가 다가올 때쯤 생각해볼 만한 것들
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have 2-3 answers for each.
-Have a story, not just data, about something you accomplished.
+당신이 받을 20가지 인터뷰 문제를 생각해보자. 각각 2-3개의 답변을 준비하자. 당신이 성취한 것에 대한 내용을 스토리로 만들자.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing Google product.
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Why do you want this job? 왜 이 일을 원하는가?
+- What's a tough problem you've solved? 당신이 해결한 어려운 문제는?
+- Biggest challenges faced? 당면한 문제중 가장 도전적인 것들?
+- Best/worst designs seen? 당신이 본 최고/최악 설계
+- Ideas for improving an existing Google product. 현존하는 구글 제품중 향상시킬 만한 아이디어
+- How do you work best, as an individual and as part of a team? 개인으로 또는 팀의 구성원으로 어떻게 최선을 다했나?
+- Which of your skills or experiences would be assets in the role and why? 당신의 기술이나 경험 중 어느 것이 그 역할에 자산이 될 것이며 그 이유는 무엇입니까?
+- What did you most enjoy at [job x / project y]? 일이나 프로젝트 중 가장 재미있게 했던 것은?
+- What was the biggest challenge you faced at [job x / project y]? 가장 도전적인 것?
+- What was the hardest bug you faced at [job x / project y]? 당면한 버그 중 가장 어려웠던 것?
+- What did you learn at [job x / project y]? 그 프로젝트로 부터 무엇을 배웠나
+- What would you have done better at [job x / project y]? 그 프로젝트에서 무엇을 더 잘할 수 있었나?
 
-## Have questions for the interviewer
+## Have questions for the interviewer (번역안함.)
 
     Some of mine (I already may know answer to but want their opinion or team perspective):
 
@@ -1420,115 +1422,113 @@ Have a story, not just data, about something you accomplished.
 
 ## Once You've Got The Job
 
-Congratulations!
+Congratulations! 축하합니다.
 
 - [10 things I wish I knew on my first day at Google](https://medium.com/@moonstorming/10-things-i-wish-i-knew-on-my-first-day-at-google-107581d87286#.livxn7clw)
 
-Keep learning.
+Keep learning. 계속 배우세요
 
-You're never really done.
-
----
-
-    *****************************************************************************************************
-    *****************************************************************************************************
-
-    Everything below this point is optional. These are my recommendations, not Google's.
-    By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
-
-    *****************************************************************************************************
-    *****************************************************************************************************
+You're never really done. 여기서 끝내면 안됩니다.
 
 ---
 
-## Additional Books
+    *****************************************************************************************************
+    *****************************************************************************************************
 
-- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
-    - an oldie but a goodie
-- [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
-    - a modern option
-- [ ] [TCP/IP Illustrated Series](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
+    추가적인 것들은 아래에 있습니다. 이것은 저의 단순 추천입니다. 이것들을 공부하면, CS 개념에 대해 더 많은 것을
+    배우게 되고 다른 소프트웨어 엔지니어링 개발 일을 얻을 수 있을 겁니다.
+    당신은 훨씬 더 균형 잡힌 소프트웨어 엔지니어가 될 것입니다.
+
+    *****************************************************************************************************
+    *****************************************************************************************************
+
+---
+
+## 추가적인 책
+
+- [ ] [UNIX 프로그래밍 환경](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
+    - 옛것이지만 좋은 책
+- [ ] [리눅스 커멘드 라인: 완벽 소개](https://www.amazon.com/dp/1593273894/)
+    - 최근 추가됨.
+- [ ] [TCP/IP 일러스트 시리즈](https://en.wikipedia.org/wiki/TCP/IP_Illustrated)
 - [ ] [Head First Design Patterns](https://www.amazon.com/gp/product/0596007124/)
-    - a gentle introduction to design patterns
-- [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - aka the "Gang Of Four" book, or GOF
-    - the canonical design patterns book
-- [ ] [Site Reliability Engineering](https://landing.google.com/sre/book.html)
-    - [Site Reliability Engineering: How Google Runs Production Systems](https://landing.google.com/sre/)
-- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
+    - [번역판-Head First Design Patterns](http://book.naver.com/bookdb/book_detail.nhn?bid=1882446)
+- [ ] [디자인 패턴: 객체 지향 소프트웨어 재사용의 요소](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+- [ ] [Site 신뢰성 엔지니어링](https://landing.google.com/sre/book.html)
+    - [Site 신뢰성 엔지니어링: 구글이 생산 시스템을 돌리는 방법](https://landing.google.com/sre/)
+- [ ] [UNIX 와 리눅스의 관리자 핸드북 4th](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
-## Additional Learning
+## 추가적인 배움
 
-- ### Dynamic Programming
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] [Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming (video)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
-        - [ ] [Skiena: CSE373 2012 - Lecture 20 - Edit Distance (video)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
-        - [ ] [Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples (video)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
-        - [ ] [Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming (video)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
-        - [ ] [Simonson: Dynamic Programming 0 (starts at 59:18) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
-        - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-        - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
-        - [ ] List of individual DP problems (each is short):
-            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
-    - [ ] Yale Lecture notes:
-        - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
+- ### 동적 프로그래밍
+    - 이 주제는 꽤나 어렵다. DP 는 재귀와 많은 연관이 되어 있다.
+    - 나는 이런 문제들의 패턴을 이해할 수 있을 때까지 가능한한 많은 예제들을 보는 것을 추천한다.
+    - [ ] 영상들:
+        - Skiena 영상은 때때로 화이트보드를 사용하는데 글자가 너무 작아서 따라가기가 힘들수도 있다.
+        - [ ] [Skiena: CSE373 2012 - Lecture 19 - 동적 프로그래밍 소개 (영상)](https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718)
+        - [ ] [Skiena: CSE373 2012 - Lecture 20 - 거리 수정 (영상)](https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749)
+        - [ ] [Skiena: CSE373 2012 - Lecture 21 - 동적 프로그래밍 예제 (영상)](https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406)
+        - [ ] [Skiena: CSE373 2012 - Lecture 22 - 동적 프로그래밍 응용 (영상)](https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22)
+        - [ ] [Simonson: 동적 프로그래밍 0 (59:18 에서 시작) (video)](https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558)
+        - [ ] [Simonson: 동적 프로그래밍 I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+        - [ ] [Simonson: 동적 프로그래밍 II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
+        - [ ] 개인적으로 찾은? DP 문제들:
+            [동적 프로그래밍 (영상)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+    - [ ] Yale 강의 노트:
+        - [ ] [동적 프로그래밍](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
-        - [ ] [The RNA secondary structure problem (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [A dynamic programming algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
-        - [ ] [Illustrating the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
-        - [ ] [Running time of the DP algorithm (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
-        - [ ] [DP vs. recursive implementation (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
-        - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
-        - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
+        - [ ] [The RNA secondary structure problem (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
+        - [ ] [동적 프로그래밍 알고리즘 (영ㅅ상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [DP 알고리즘의 일러스트 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
+        - [ ] [DP 알고리즘의 수행시간 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
+        - [ ] [DP vs. 재귀 구현 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
+        - [ ] [Global pairwise sequence alignment 전역 양방향 순서 정렬 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
+        - [ ] [Local pairwise sequence alignment 지역 양방향 순서 정렬 (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Compilers
-    - [ ] [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
-    - [ ] [Harvard CS50 - Compilers (video)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
-    - [ ] [C++ (video)](https://www.youtube.com/watch?v=twodd1KFfGk)
-    - [ ] [Understanding Compiler Optimization (C++) (video)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+- ### 컴파일러
+    - [ ] [1분안에 알아보는 컴파일러의 동작 방법 (영상)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
+    - [ ] [Harvard CS50 - 컴파일러 (영상)](https://www.youtube.com/watch?v=CSZLNYF4Klo)
+    - [ ] [C++ (영상)](https://www.youtube.com/watch?v=twodd1KFfGk)
+    - [ ] [컴파일러 최적화의 이해 (C++) (영상)](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 - ### Floating Point Numbers
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] 단순 8-bit: [Floating Point 숫자의 표현 - 1 (영상 - 여기에 하나의 계산의 오류가 있음)](https://www.youtube.com/watch?v=ji3SfClm8TU)
     - [ ] 32 bit: [IEEE754 32-bit floating point binary (video)](https://www.youtube.com/watch?v=50ZYcZebIec)
 
-- ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+- ### 유니코드
+    - [ ] [모든 소프트웨어 개발자가 최소한으로 알아야 할 유니코드와 캐랙터 셑]( http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [모든 프로그래머가 알아야 하는 텍스트 인코딩과 캐랙터 셑](http://kunststube.net/encoding/)
 
-- ### Endianness
-    - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+- ### 엔디안
+    - [ ] [빅 / 리틀 엔디안](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [빅 엔디안 Vs 리틀 엔디안 (영상)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [빅/리틀 엔디안 내외부 (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - 커널 개발을 위한 매우 기술적 이야기.
+        - 앞부분 반정도만 봐
 
-- ### Emacs and vi(m)
-    - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
+- ### Emacs 와 vi(m)
+    - 예전 아마존 리쿠르팅 포스트에서 Yegge 가 제안, unix 기반 코드 에디터에 익숙해져라
     - vi(m):
-        - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
-        - [VIM Adventures](http://vim-adventures.com/)
-        - set of 4 videos:
-            - [The vi/vim editor - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
-            - [The vi/vim editor - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
-            - [The vi/vim editor - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
-            - [The vi/vim editor - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
-        - [Using Vi Instead of Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
+        - [vim 연습 01 - 설치, 설정 그리고 모드 (영상)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+        - [VIM 고급](http://vim-adventures.com/)
+        - 4개의 시리즈 영상:
+            - [vi/vim 에디터 - Lesson 1](https://www.youtube.com/watch?v=SI8TeVMX8pk)
+            - [vi/vim 에디터 - Lesson 2](https://www.youtube.com/watch?v=F3OO7ZIOaJE)
+            - [vi/vim 에디터 - Lesson 3](https://www.youtube.com/watch?v=ZYEccA_nMaI)
+            - [vi/vim 에디터 - Lesson 4](https://www.youtube.com/watch?v=1lYD5gwgZIA)
+        - [Emacs 대신에 Vi 쓰자](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Using_Vi_instead_of_Emacs)
     - emacs:
-        - [Basics Emacs Tutorial (video)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
-        - set of 3 (videos):
-            - [Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands](https://www.youtube.com/watch?v=ujODL7MD04Q)
-            - [Emacs Tutorial (Beginners) -Part 2- Buffer management, search, M-x grep and rgrep modes](https://www.youtube.com/watch?v=XWpsRupJ4II)
-            - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
-        - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
-        - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-        - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
+        - [기본 Emacs (영상)](https://www.youtube.com/watch?v=hbmV1bnQ-i0)
+        - 3 개의 영상 (영상들):
+            - [Emacs 소개 (초보) -Part 1- 파일 명령어, cut/copy/paste, 커서 커맨드](https://www.youtube.com/watch?v=ujODL7MD04Q)
+            - [Emacs 소개 (초보) -Part 2- 버퍼 관리, 검색, M-x grep 과 rgrep 모드](https://www.youtube.com/watch?v=XWpsRupJ4II)
+            - [Emacs 소개 (초보) -Part 3- 표현, 기술, ~/.emacs 파일 그리고 패키지](https://www.youtube.com/watch?v=paSgzPso-yc)
+        - [알마 모드: 또는, 걱정하지 않고 Emacs 를 사랑하는 방법 (영상)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
+        - [C 프로그램 작성하기](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
+        - [(maybe) 깊이 있는 Org 모드: 구조 관리 (영상)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
-    - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
+- ### 유닉스 커맨드 라인 툴
+    - 예전 아마존 리쿠르팅 포스트에서 Yegge 가 제안.
     - [ ] bash
     - [ ] cat
     - [ ] grep
@@ -1541,116 +1541,117 @@ You're never really done.
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+- ### 정보 이론 (영상)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
-    - [ ] more about Markov processes:
-        - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
-        - [ ] [Core Implementing Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
+       - ko.khanacademy.org 로 접속하면 한글 사이트로 나옴.
+    - [ ] Markov 프로세스:
+        - [ ] [Core Markov 텍스트 생성](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
+        - [ ] [Core Markov 텍스트 생성 구현](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/gZhiC/core-implementing-markov-text-generation)
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
-    - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
-    - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
-    - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
-    - [ ] Hamming Code:
-        - [Error detection](https://www.youtube.com/watch?v=1A_NcXxdoCc)
-        - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
-    - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
+- ### 패러티 & 해밍 코드 (영상)
+    - [ ] [소개](https://www.youtube.com/watch?v=q-3BctoUpHE)
+    - [ ] [패러티](https://www.youtube.com/watch?v=DdMcAUlxh1M)
+    - [ ] 해밍 코드:
+        - [에러 발견](https://www.youtube.com/watch?v=1A_NcXxdoCc)
+        - [에러 수정](https://www.youtube.com/watch?v=JAMLuxdHH8o)
+    - [ ] [에러 확인](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
-    - also see videos below
-    - make sure to watch information theory videos first
+- ### 엔트로피
+    - 위에도 관련 영상 있음
+    - 정보 이론 영상을 먼전 보고 아래의 것을 볼 수 있도록 하자
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
-    - also see videos below
-    - make sure to watch information theory videos first
-    - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
-    - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
-    - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- ### 암호학
+    - 이것도 위에 보면 영상
+    - 정보 이론 영상을 먼전 보고 아래의 것을 볼 수 있도록 하자
+    - [ ] [Khan Academy 시리즈](https://www.khanacademy.org/computing/computer-science/cryptography)
+    - [ ] [암호: 해쉬 함수](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
+    - [ ] [암호: 암호화](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
-    - make sure to watch information theory videos first
-    - [ ] Computerphile (videos):
-        - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
-        - [ ] [Entropy in Compression](https://www.youtube.com/watch?v=M5c_RFKVkko)
-        - [ ] [Upside Down Trees (Huffman Trees)](https://www.youtube.com/watch?v=umTbivyJoiI)
-        - [ ] [EXTRA BITS/TRITS - Huffman Trees](https://www.youtube.com/watch?v=DV8efuB3h2g)
-        - [ ] [Elegant Compression in Text (The LZ 77 Method)](https://www.youtube.com/watch?v=goOa3DGezUA)
-        - [ ] [Text Compression Meets Probabilities](https://www.youtube.com/watch?v=cCDCfoHTsaU)
-    - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
-    - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
+- ### 압축
+    - 정보 이론 영상을 먼전 보고 아래의 것을 볼 수 있도록 하자
+    - [ ] 컴퓨터 애호가 (영상들):
+        - [ ] [압축](https://www.youtube.com/watch?v=Lto-ajuqW3w)
+        - [ ] [엔트로피 압축](https://www.youtube.com/watch?v=M5c_RFKVkko)
+        - [ ] [트리 뒤집기 (허프만 트리)](https://www.youtube.com/watch?v=umTbivyJoiI)
+        - [ ] [EXTRA BITS/TRITS - 허프만 트리](https://www.youtube.com/watch?v=DV8efuB3h2g)
+        - [ ] [멋진 텍스트 압축 (LZ 77 방법)](https://www.youtube.com/watch?v=goOa3DGezUA)
+        - [ ] [텍스트 압축이 확률을 만나다.](https://www.youtube.com/watch?v=cCDCfoHTsaU)
+    - [ ] [Compressor Head 영상](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
+    - [ ] [(옵션) 구글 개발자: GZIP 은 충분치 않아!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking
-    - **if you have networking experience or want to be a systems engineer, expect questions**
-    - otherwise, this is just good to know
+- ### 네트워킹
+    - **만약, 당신이 네트워킹관련 경험이 있거나 시스템 엔지니어가 되고자 한다면, 아래의 질문들을 살펴보자**
+    - 알아두면 좋은 것들이다.
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial.](https://www.youtube.com/watch?v=nomyRJehhnM)
+      - ko.khanacademy.org 로 접속하면 한글 사이트로 나옴.
+    - [ ] [UDP 와 TCP: Transport Protocols 비교](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP 와 OSI Model 설명!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [패킷이 인터넷을 통해 전송. 네트워킹 & TCP/IP 소개.](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL 와 HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [영상 시리즈 (21 영상들)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
-- ### Computer Security
-    - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
-        - [ ] [Buffer Overflow Exploits and Defenses](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
-        - [ ] [Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- ### 컴퓨터 보안
+    - [MIT (23 영상들)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [소개, 위협 모델](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Hijacking 공격에 대한 컨트롤](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
+        - [ ] [버퍼 오버플로우 공격 및 방어](https://www.youtube.com/watch?v=drQyrzRoRiA&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=3)
+        - [ ] [특권 분리 Privilege Separation](https://www.youtube.com/watch?v=6SIJmoE9L9g&index=4&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [기능들 Capabilities](https://www.youtube.com/watch?v=8VqTSY-11F4&index=5&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Sandboxing Native Code](https://www.youtube.com/watch?v=VEV74hwASeU&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=6)
-        - [ ] [Web Security Model](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Securing Web Applications](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [Web 보안 모델](https://www.youtube.com/watch?v=chkFBigodIw&index=7&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [웹 응용 프로그램의 보안](https://www.youtube.com/watch?v=EBQIGy1ROLY&index=8&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Symbolic Execution](https://www.youtube.com/watch?v=yRVZPvHYHzw&index=9&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Security](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
-        - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [네트웍 보안](https://www.youtube.com/watch?v=SIEVvk3NVuk&index=11&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+        - [ ] [네트웍 프로토콜](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
-    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
-    - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
-    - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
-    - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
-    - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
+- ### 가비지 컬렉션
+    - [ ] [가비지 컬렉션 (Java); Augmenting data str (영상)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
+    - [ ] [컴파일러 (영상)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
+    - [ ] [파이썬 GC (영상)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
+    - [ ] [Deep Dive Java: 가비지 컬렉션은 좋아!](https://www.infoq.com/presentations/garbage-collection-benefits)
+    - [ ] [Deep Dive Python: CPython 에서 가비지 컬렉션 (영상)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+- ### 병렬 프로그래밍
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
-    - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
+    - [ ] [좋은 성능을 내는 병렬 컴퓨팅을 위한 효과적인 파이썬 (영상)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Messaging, Serialization, and Queueing Systems
-    - [ ] [Thrift](https://thrift.apache.org/)
-        - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
-    - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-        - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
+- ### 메세징, 직렬화, 그리고 대기(큐) 시스템
+    - [ ] [Thrift 절약](https://thrift.apache.org/)
+        - [Tutorial 소개](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
+    - [ ] [Protocol Buffers 프로토콜 버퍼들](https://developers.google.com/protocol-buffers/)
+        - [Tutorials 소개](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [ ] [gRPC](http://www.grpc.io/)
-        - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
+        - [gRPC 101 for Java Developers (영상)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
     - [ ] [Redis](http://redis.io/)
-        - [Tutorial](http://try.redis.io/)
-    - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
+        - [소개](http://try.redis.io/)
+    - [ ] [Amazon SQS (큐)](https://aws.amazon.com/sqs/)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
     - [ ] [RabbitMQ](https://www.rabbitmq.com/)
-        - [Get Started](https://www.rabbitmq.com/getstarted.html)
+        - [시작하기](https://www.rabbitmq.com/getstarted.html)
     - [ ] [Celery](http://www.celeryproject.org/)
-        - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+        - [Celery 시작하기](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
     - [ ] [ZeroMQ](http://zeromq.org/)
-        - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
+        - [소개 - 메뉴얼을 읽자](http://zeromq.org/intro:read-the-manual)
     - [ ] [ActiveMQ](http://activemq.apache.org/)
     - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
     - [ ] [MessagePack](http://msgpack.org/index.html)
     - [ ] [Avro](https://avro.apache.org/)
 
-- ### Fast Fourier Transform
-    - [ ] [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
-    - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
-    - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
-    - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
-    - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
+- ### Fast Fourier Transform 빠른 푸리에 변환
+    - [ ] [푸리에 변환을 위한 대화식 가이드 An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+    - [ ] [푸리에 변환은 무엇인가? 무엇을 위해 쓰이는가?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
+    - [ ] [푸리에 변환은 무엇인가? (영상)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
+    - [ ] [분할 & 정복 Divide & Conquer: FFT (영상)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
+    - [ ] [FFT의 이해](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ### Bloom Filter
+- ### Bloom Filter 블룸 필터
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
     - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
