@@ -1,7 +1,7 @@
 # Google Interview University
 
 Translations:
-- [한국어 (in progress)] (README-kr.md) [Issues #1 https://github.com/daeseokyoun/google-interview-university/issues/1]
+- [한국어](README-kr.md)
 - [中文版本](README-cn.md)
 - [Español (in progress)](README-es.md) [Issue #80](https://github.com/jwasham/google-interview-university/issues/80)
 - [हिन्दी (in progress)](README-hn.md) [Issue #81](https://github.com/jwasham/google-interview-university/issues/81)
@@ -33,96 +33,96 @@ Translations:
 - [Get in a Googley Mood](#get-in-a-googley-mood)
 - [Follow Along with Me](#follow-along-with-me)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Google](#about-google)
+- [구글에 대해](#구글에-대해)
 - [About Video Resources](#about-video-resources)
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)법
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
+- [책 목록](#책-목록)
+- [시작하기 전에](#시작하기-전에)
+- [여기서 다루지 않는 것들](#여기서-다루지-않는-것들)
+- [선행 지식](#선행-지식)
+- [일일 계획](#일일-계획)
+- [알고리즘 복잡도 / Big-O / 점근 분석](#알고리즘-복잡도--Big-O--점근-분석)
+- [자료 구조](#자료-구조)
+    - [배열](#배열)
+    - [연결 리스트](#연결-리스트)
+    - [스택](#스택)
+    - [큐](#큐)
+    - [해쉬 테이블](#해쉬-테이블)
+- [추가 자료 구조](#추가-자료-구조)
+    - [이진 검색](#이진-트리)
+    - [비트 연산](#비트-연산)
+- [트리](#트리---Tree)
+    - [트리 - 노트 & 배경 지식](#트리---노트--배경-지식)
+    - [이진 검색 트리: BSTs](#이진-검색-트리-bsts)
+    - [힙 / 우선순위 큐 / 이진 힙](#힙--우선순위-큐--이진-힙)
+    - 균형 잡힌 이진 트리 (기본 컨셉, 자세히는 아님)
+    - 트리 순방: preorder, inorder, postorder, BFS, DFS
+- [정렬](#정렬)
     - selection
     - insertion
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
+- [그래프](#그래프)
     - directed
     - undirected
     - adjacency matrix
     - adjacency list
     - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Papers](#papers)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [Implement system routines](#implement-system-routines)
-    - [String searching & manipulations](#string-searching--manipulations)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [더 많은 지식](#더-많은-지식)
+    - [재귀](#recursion)
+    - [객체지향적 프로그래밍](#객체지향적-프로그래밍)
+    - [디자인 패턴](#디자인-패턴)
+    - [조합(n 개중에 k) 와 확률](#조합-n-개중에-k-와-확률)
+    - [NP, NP-Complete 과 근사 알고리즘](#np-np-complete-과-근사-알고리즘)
+    - [캐쉬](#캐쉬)
+    - [프로세스와 쓰레드](#프로세스와-쓰레드)
+    - [논문](#논문)
+    - [테스팅](#테스팅)
+    - [스케줄링](#스케줄링)
+    - [시스템 루틴 구현](#시스템-루틴-구현)
+    - [문자열 검색 & 조작](#문자열-검색--조작)
+- [시스템 설계, 확장, 자료 처리 (System Design, Scalability, Data Handling)](#시스템-설계-확장-자료-처리) (4년 이상 경력자)
+- [마지막 리뷰](#마지막-리뷰)
+- [코딩 문제 연습](#코딩-문제-연습)
+- [코딩 연습/도전](#코딩-연습도전)
+- [일단 당신이 인터뷰에 가까이 갔다.](#일단-당신이-인터뷰에-가까이-갔다.)
+- [이력서](#이력서)
+- [인터뷰가 다가올 때쯤 생각해볼 만한 것들](#인터뷰가-다가올-때쯤-생각해볼-만한-것들)
 - [Have questions for the interviewer](#have-questions-for-the-interviewer)
 - [Once You've Got The Job](#once-youve-got-the-job)
 
 ---------------- Everything below this point is optional ----------------
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Compilers](#compilers)
+- [추가적인 책](#추가적인-책)
+- [추가적인 배움](#추가적인-배움)
+    - [동적 프로그래밍](#동적-프로그래밍)
+    - [컴파일러](#컴파일러)
     - [Floating Point Numbers](#floating-point-numbers)
-    - [Unicode](#unicode)
-    - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [유니코드](#유니코드)
+    - [엔디안](#엔디안)
+    - [Emacs 와 vi(m)](#emacs-와-vim)
+    - [유닉스 커맨드 라인 툴](#유닉스-커맨드-라인-툴)
+    - [정보 이론 (영상)](#정보-이론-영상)
+    - [패러티 & 해밍 코드 (영상)](#패러티--해밍-코드-영상)
+    - [엔트로피](#엔트로피)
+    - [암호학](#암호학)
+    - [압축](#압축)
+    - [네트워킹](#네트워킹)
+    - [컴퓨터 보안](#컴퓨터-보안)
+    - [가비지 컬렉션](#가비지-컬렉션)
+    - [병렬 프로그래밍](#병렬-프로그래밍)
+    - [메세징, 직렬화, 그리고 대기(큐) 시스템](#메세징-직렬화-그리고-대기큐-시스템)
+    - [Fast Fourier Transform 빠른 푸리에 변환](#fast-fourier-transform-빠른-푸리에-변환)
+    - [Bloom Filter 블룸 필터](#bloom-filter-블룸-필터)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Tries](#tries)
+    - [van Emde Boas Trees 반 엠데 보아스 트리](#van-emde-boas-trees-반-엠데-보아스-트리)
+    - [Augmented Data Structures 증강된 자료 구조들](#augmented-data-structures-증강된-자료-구조들)
+    - [Tries 트라이(Prefix tree)](#tries-트라이Prefix-tree)
     - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
+    - [Balanced search trees 균형 잡힌 이진 트리](#balanced-search-trees-균형-잡힌-이진-트리)
         - AVL trees
         - Splay trees
         - Red/black trees
@@ -130,20 +130,20 @@ Translations:
         - 2-3-4 Trees (aka 2-4 trees)
         - N-ary (K-ary, M-ary) trees
         - B-Trees
-    - [k-D Trees](#k-d-trees)
+    - [k-D 트리](#k-d-트리)
     - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [네트웍 흐름](#네트웍-흐름)
+    - [Disjoint Sets & Union Find 분리된 셋 & 유니온 찾기](#disjoint-sets--union-find-분리된-셋--유니온-찾기)
+    - [빠른 처리를 위한 수학 Math for Fast Processing](#빠른-처리를-위한-수학-math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
+    - [선형 프로그래밍 (영상)](#선형-프로그래밍-영상)
+    - [기하학, Convex hull 볼록 선체 (영상)](#기하학-Convex-hull-볼록-선체-영상)
+    - [이산 수학](#이산-수학)
+    - [머신 러닝](#머신-러닝)
     - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+- [또다른 주제에 대한 상세](#또다른-주제에-대한-상세)
+- [영상 시리즈](#영상-시리즈)
+- [컴퓨터 과학](#컴퓨터-과학)
 
 ---
 
@@ -208,7 +208,7 @@ My story: [구글 인터뷰 준비를 위해 왜 8 달 동안 공부를 했는�
 - [The myth of the Genius Programmer 천재 프로그래머에 대한 미신](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [혼자 가는건 너무 위험해: 기술이라는 보이지 않는 괴물과 싸워야해](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## 구글에 대해
 
 - [x] For students - [Google Careers: 기술 개발 가이드](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 - [ ] 구글에서 일거리 찾기:
@@ -291,7 +291,7 @@ My story: [구글 인터뷰 준비를 위해 왜 8 달 동안 공부를 했는�
 
 C / C++ / Python 을 배울 때, 도움이 될만한 책들이 아래에 리스트되어 있다.
 
-## Book List
+## 책 목록
 
 아래의 리스트는 내가 이용한 책의 양보다는 작다. 당신의 시간을 절약할 수 있길 기대한다.
 
@@ -1652,354 +1652,335 @@ You're never really done. 여기서 끝내면 안됩니다.
     - [ ] [FFT의 이해](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
 - ### Bloom Filter 블룸 필터
-    - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
-    - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
-    - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
-    - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
-    - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
+    - [블룸 필터-한글 위키](https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A3%B8_%ED%95%84%ED%84%B0)
+    - 주어진 m 비트와 함께 주어진 블룸필터와 K 해쉬 함수, 삽입과 관련 테스팅은 O(k) 이다.
+    - [블룸 필터](https://www.youtube.com/watch?v=-SuTGoFYjZs)
+    - [블룸 필터 | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
+    - [소개](http://billmill.org/bloomfilter-tutorial/)
+    - [블룸 필터 앱만드는 방법](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
 - ### HyperLogLog
-    - [How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
+    - [확률적 자료구조를 이용한 추정 - 유일한 원소 개수 추정과 HyperLogLog (한글)](http://d2.naver.com/helloworld/711301)
+    - [단지 1.5 KB 의 메모리로 10억개의 분명한(?) 객체를 세는 방법](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)
 
 - ### Locality-Sensitive Hashing
-    - used to determine the similarity of documents
-    - the opposite of MD5 or SHA which are used to determine if 2 documents/strings are exactly the same.
+    - [소개 한글](http://blog.daum.net/jchern/13627840)
+    - MD5나 SHA 의 반대말로 두 문서나 문자열이 정확히 같은지 결정하는데 사용된다.
     - [Simhashing (hopefully) made simple](http://ferd.ca/simhashing-hopefully-made-simple.html)
 
-- ### van Emde Boas Trees
-    - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
-    - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
+- ### van Emde Boas Trees 반 엠데 보아스 트리
+    - [ ] [분할 정복: van Emde Boas Trees (영상)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
+    - [ ] [MIT 강의노트](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
-    - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
+- ### Augmented Data Structures 증강된 자료 구조들
+    - [ ] [CS 61B Lecture 39: 증강된 자료 구조들](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ### Tries
+- ### Tries 트라이(Prefix tree)
+    - [트라이 간략 설명 및 코드(자바)](http://m.blog.naver.com/javaking75/140211950640)
     - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
-    - [ ] [Sedgewick - Tries (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+        to track the path. (몇몇 종류의 트라이가 있다. 몇몇은 접두어가 있고, 다른 몇몇은 없는데, 경로를 찾기위해 비트를 사용하는 대신 문자열을 사용.)
+    - 코드를 보았지만, 구현해보진 못했다.
+    - [ ] [Sedgewick - 트라이 (3 videos)](https://www.youtube.com/playlist?list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
         - [ ] [1. R Way Tries](https://www.youtube.com/watch?v=buq2bn8x3Vo&index=3&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
         - [ ] [2. Ternary Search Tries](https://www.youtube.com/watch?v=LelV-kkYMIg&index=2&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
         - [ ] [3. Character Based Operations](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ&index=1)
-    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course videos:
-        - [ ] [Introduction To Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
-    - [ ] [Stanford Lecture (real world use case) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [ ] [자료 구조와 프로그래밍 기술의 노트](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    - [ ] 짧은 영상:
+        - [ ] [트라이 소개 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [트라이 성능 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [트라이 구현 (영상)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [트라이: 소홀하게 된 자료 구조](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] [TopCoder - 트라이를 사용하자](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    - [ ] [Stanford Lecture (실생활 케이스) (video)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [MIT, 고급 자료 구조, 문자열](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### Balanced search trees
-    - Know least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
-        - splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets.
-    - [ ] [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+- ### Balanced search trees 균형 잡힌 이진 트리
+    - 균형잡힌 이진 트리의 최소 한가지 형태는 알아야 함 (구현도 할 수 있어야 해):
+    - "균형 잡힌 이진트리 중에, AVL 과 2/3 트리들은 조금 오래 됬고, red-black(레드 블랙) 트리는 요즘 인기 인듯.
+        특히 흥미로운 자체 구성 자료 구조는 회전을 이용하여 루트에서 다른 접근 가능한 키로 옮겨 갈 수 있는 스플레이 트리(splay tree) 이다." - Skiena
+    - 물론, 나는 splay 트리 구현을 선택했다. 내가 읽어 온 내용을 보면, 당신은 인터뷰 중에는 균형잡힌 이진 트리 구현을 할 필요는 없다. 그러나 나는 코딩을 일단 해보고 그것을 격어보았다. 나는 레드 블랙트리 코드도 많이 읽었었다.
+        - splay 트리: insert, search, delete 함수
+        만약 당신이 레드-블랙 트리를 구현하고 싶다면:
+        - search / insertion 함수, delete 는 안해도 될 듯.
+    - 나는 매우 많은 자료 셋을 다룰 때 사용하는 B-트리도 더 많이 배우고 싶었다.
+    - [ ] [자체 균형 이진 검색 트리](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-    - [ ] **AVL trees**
-        - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
-            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-            attractive for data structures that may be built once and loaded without reconstruction, such as language
-            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter).
-        - [ ] [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
-        - [ ] [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
-        - [ ] [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
-        - [ ] [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+    - [ ] **AVL 트리**
+        - 실제로:
+            저의 생각은 AVL 트리는 많이 사용되지 않는 것이지만, 나는 어디에 사용되는지 봤습니다.:
+            AVL 트리는 O(log n) 검색, 삽입 그리고 삭제를 지원하는 자료 구조이다. 이것은 레드 블랙 트리 보다 더 완벽한 균형잡힌 이진 트리 이고 느린 삽입 / 삭제 연산이지만, 검색은 더 빠릅니다. 한번 구축 되어 재구성 없이 로드 될 수 있는 데이터 구조에 매력적입니다. (언어 사전, 어셈블리어의 opcode 나 인터프리터가 사용하는 프로그램 사전)
+        - [ ] [MIT AVL 트리 / AVL 정렬 (영상)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
+        - [ ] [AVL 트리 (영상)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
+        - [ ] [AVL 트리 구현 (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
+        - [ ] [분리 및 병합](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
 
-    - [ ] **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking and file system code) etc.
-        - [ ] [CS 61B: Splay Trees (video)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    - [ ] **스플레이 트리 Splay trees**
+        - 실제로:
+            Splay 트리는 캐쉬, 메모리 할당, 라우터, 가비지 컬렉션, 데이터 압축, ropes (replacement of string used for long text strings - 긴 텍스트를 위해 사용되는 문자열 치환), 윈도우즈 NT(가상 메모리, 네트워킹 그리고 파일 시스템) 등
+        - [ ] [CS 61B: 스플레이 트리 (영상)](https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
         - [ ] MIT Lecture: Splay Trees:
-            - Gets very mathy, but watch the last 10 minutes for sure.
-            - [Video](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
+            - 굉장히 수학적이지만, 마지막 10분은 꼭 보도록 하세요
+            - [영상](https://www.youtube.com/watch?v=QnPl_Y6EqMo)
 
-    - [ ] **Red/black trees**
-        - these are a translation of a 2-3 tree (see below)
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used.
-        - [ ] [Aduni - Algorithms - Lecture 4 (link jumps to starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
-        - [ ] [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
-        - [ ] [Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [ ] [An Introduction To Binary Search And Red Black Tree](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+    - [ ] **레드-블랙 트리 Red/black trees**
+        - 2-3 트리의 변환 (아래)
+        - 실제로:
+            레드-블랙 트리는 삽입 시간, 제거 시간 그리고 검색 시간의 worst-case 를 보장한다. 이것은 Real-time 응용 프로그램과 같이 수행 시간에 민감한 것에게 좋을 뿐만 아니라, 최악(worst-case) 보장을 제공하는 다른 자료구조에서도 가치 있는 블럭을 생성할 수 있도록 한다. 예를 들면, 계산 기하학에서 사용되는 많은 자료 구조에서 레드 블랙 트리가 기반이 될 수 있고, 현 리눅스 커널에서 스케줄러로 사용되는 CFS(Completely Fair Scheduler)에도 사용된다. JAVA 버전 8 에서는 해쉬맵에서 부족한 해쉬 코드로 인해 같은 해쉬값을 가지는 요소를 저장하기 위해 연결 리스트를 사용하는 대신 레드 블랙 트리(같은 해쉬 값 요소가 8개 이상이면)를 사용한다.
+        - [ ] [Aduni - 알고리즘 - Lecture 4 (아래 링크는 처음부터 시작함) (영상)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
+        - [ ] [Aduni - 알고리즘 - Lecture 5 (영상)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
+        - [ ] [블랙 트리](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+        - [ ] [이진 검색 및 레드 블랙 트리 소개](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-    - [ ] **2-3 search trees**
-        - In practice:
-            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
-        - You would use 2-3 tree very rarely because its implementation involves different types of nodes. Instead, people use Red Black trees.
-        - [ ] [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
-        - [ ] [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [2-3 Trees (student recitation) (video)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] **2-3 검색 트리**
+        - 실제로:
+            2-3 트리는 삽입은 빠르지만, 검색은 느리다.(높이는 AVL 트리보다 더 높음.)
+        - 당신은 2-3 트리는 서로 다른 타입의 노드가 포함되어 구현되어 야 하기 때문에 거의 사용할 일 은 없다. 대신 사람들은 레드 블랙 트리를 사용한다.
+        - [ ] [2-3 트리 직감과 정의 (영상)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
+        - [ ] [2-3 트리의 이진 뷰](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [2-3 트리 (영상)](https://www.youtube.com/watch?v=TOb1tuEZ2X4&index=5&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-    - [ ] **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] [CS 61B Lecture 26: Balanced Search Trees (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
+    - [ ] **2-3-4 트리 (일명 2-4 트리)**
+        - 실제로:
+            모든 2-4 트리는, 동일한 순서를 가지는 레드 블랙 트리의 데이터 요소들과 대응된다. 2-4 트리에서 삽입 및 삭제 수행은 레드 블랙 트리에서 회전과 반전(color-flipping)과 동일합니다. 이것은 2-4 트리를 레드-블랙 트리 로직을 이해하는데 중요하다는 것을 알 수 있고, 교과서(?)에 레드 블랙 트리 전에 2-4 트리를 많이 소개되는지 알수 있다. **2-4 트리는 실제로 잘 쓰여지지 않음에도 말이다.**
+        - [ ] [CS 61B Lecture 26: 이진 검색 트리 (video)](https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C)
         - [ ] [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [ ] [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
 
-    - [ ] **N-ary (K-ary, M-ary) trees**
-        - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
-        - [ ] [K-Ary Tree](https://en.wikipedia.org/wiki/K-ary_tree)
+    - [ ] **N-ary (K-ary, M-ary) 트리**
+        - note: N 또는 K는 분기 인자 이다. (최대 분기)
+        - 이진 트리는 분기 인자 2를 가지는 2-ary 트리이다.
+        - 2-3 트리는 3-ary 임
+        - [ ] [K-Ary 트리](https://en.wikipedia.org/wiki/K-ary_tree)
 
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
-        - [ ] [B-Tree](https://en.wikipedia.org/wiki/B-tree)
-        - [ ] [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
-        - [ ] [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
-        - [ ] [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+    - [ ] **B-트리**
+        - 재밌는 사실: 이것은 미스테리지만, B 트리는 Boeing, Balanced 또는 Bayer(공동 발명가)의 약자이다.
+        - 실제로:
+            B-트리는 데이터베이스에서 널리 사용된다. 최근 파일 시스템들은 B-트리를 사용한다. 데이터 베이스에서 사용 외에도, B-트리는 특정 파일의 빠른 랜덤 접근을 허용기 위해 파일시스템에서도 사용된다. 기본적인 문제는 파일 블락 i 주소를 디스크 블럭 주소로 변환하는 작업이다.
+        - [ ] [B-트리](https://en.wikipedia.org/wiki/B-tree)
+        - [ ] [B-트리 소개 (영상)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
+        - [ ] [B-트리 정의 및 삽입 (영상)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [B-트리 삭제 (영상)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
+        - [ ] [MIT 6.851 - 메모리 계층 모델 (영상)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
-                - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+                - 처음 37분은 매우 기술적인 내용이다, 스킵해도 될 듯.
 
+- ### k-D 트리
+    - 사각형이나 더 높은 차원의 객체 내에서 점의 수를 찾는데 효과적
+    - k-nearest 이웃을 위해 좋음.
+    - [ ] [Kd 트리 (영상)](https://www.youtube.com/watch?v=W94M9D_yXKk)
+    - [ ] [kNN K-d 트리 알고리즘 (영상)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 
-- ### k-D Trees
-    - great for finding number of points in a rectangle or higher dimension object
-    - a good fit for k-nearest neighbors
-    - [ ] [Kd Trees (video)](https://www.youtube.com/watch?v=W94M9D_yXKk)
-    - [ ] [kNN K-d tree algorithm (video)](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- ### Skip Lists
+    - "이것은 약간 컬트 자료 구조이다" - Skiena
+    - [ ] [랜덤: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [애니매이션과 조금더 상세](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Skip lists
-    - "These are somewhat of a cult data structure" - Skiena
-    - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
+- ### 네트웍 흐름
+    - [ ] [5분안에 보는 Ford-Fulkerson (영상)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [Ford-Fulkerson 알고리즘 (영상)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
+    - [ ] [네트웍 흐름 (영상)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Network Flows
-    - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
-    - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
+- ### Disjoint Sets & Union Find 분리된 셋 & 유니온 찾기
+    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (영상)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
+    - [ ] [Sedgewick Algorithms - Union-Find (6 영상)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
 
-- ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.youtube.com/watch?v=8mYfZeHtdNc&list=PLe-ggMe31CTexoNYnMhbHaWhQ0dvcy43t)
-
-- ### Math for Fast Processing
-    - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
+- ### 빠른 처리를 위한 수학 Math for Fast Processing
+    - [ ] [정수 산술, Karatsuba 곱 (영상)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [중국 나머지 정리 (암호에서 사용됨) (영상)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
 - ### Treap
-    - Combination of a binary search tree and a heap
+    - 이진 검색 트리 및 힙의 조합
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
-    - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
+    - [ ] [자료 구조: Treaps 설명 (영상)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
-    - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
-    - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
-    - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
-    - [ ] [Solve Linear Equations with Python - Simplex Algorithm](https://www.youtube.com/watch?v=44pAWI7v5Zk)
+- ### 선형 프로그래밍 (영상)
+    - [ ] [선형 프로그래밍](https://www.youtube.com/watch?v=M4K6HYLHREQ)
+    - [ ] [최소 비용 찾기](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
+    - [ ] [최대 값 찾기](https://www.youtube.com/watch?v=8AA_81xI3ik)
+    - [ ] [파이썬으로 선형 방정식 풀기 - Simplex 알고리즘](https://www.youtube.com/watch?v=44pAWI7v5Zk)
 
-- ### Geometry, Convex hull (videos)
-    - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
-    - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
-    - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
+- ### 기하학, Convex hull 볼록 선체 (영상)
+    - [ ] [그래프 알고리즘 IV: 기하학 알고리즘 소개 - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
+    - [ ] [기하학 알고리즘: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
+    - [ ] [분할 & 정복: Convex Hull, 중간값 찾기](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
-    - see videos below
+- ### 이산 수학
+    - 아래 비디오를 보자
 
-- ### Machine Learning
-    - [ ] Why ML?
-        - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
-        - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
-        - [ ] [Deep Learning and Understandability versus Software Engineering and Verification by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
-    - [ ] [Google's Cloud Machine learning tools (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
-    - [ ] [Google Developers' Machine Learning Recipes (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
-    - [ ] [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [ ] [Tensorflow Tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
-    - [ ] [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
-    - Courses:
-        - [Great starter course: Machine Learning](https://www.coursera.org/learn/machine-learning)
-              - [videos only](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
+- ### 머신 러닝
+    - [ ] 왜 머신 러닝인가?
+        - [ ] [구글이 머신 러닝을 처음 적용한 회사로 재조명 되는 방법](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
+        - [ ] [지능형 컴퓨팅 시스템을 위한 대형 규모의 딥 러닝 (영상)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
+        - [ ] [딥러닝 그리고 이해 가능성 vs. 소프트웨어 엔지니어링과 검증by Peter Norvig](https://www.youtube.com/watch?v=X769cyzBNVw)
+    - [ ] [구글 클라우드 머신 러닝 툴 (영상)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
+    - [ ] [구글 개발자들의 머신 러닝 요리법 (Scikit Learn & Tensorflow) (영상)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+    - [ ] [Tensorflow (영상)](https://www.youtube.com/watch?v=oZikw5k_2FM)
+    - [ ] [Tensorflow 소개](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [ ] [파이썬으로 신경망 구현을 위한 실용 가이드(Theano 사용)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
+    - 강좌:
+        - [시작을 위한 좋은 강좌: 머신 러닝](https://www.coursera.org/learn/machine-learning)
+              - [영상](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - see videos 12-18 for a review of linear algebra (14 and 15 are duplicates)
-        - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
-        - [Google's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
-        - [Google/Kaggle Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
-        - [Self-Driving Car Engineer Nanodegree](https://www.udacity.com/drive)
-        - [Metis Online Course ($99 for 2 months)](http://www.thisismetis.com/explore-data-science)
-    - Resources:
-        - Books:
-            - [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
-            - [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
-            - [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
-        - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+              - 선형 대수학의 리뷰를 위한 12-18 비디오를 보자(14/15는 중복)
+        - [머신러닝을 위한 신경망](https://www.coursera.org/learn/neural-networks)
+        - [구글 딥 러닝 Nanodegree](https://www.udacity.com/course/deep-learning--ud730)
+        - [구글 머신 러닝 엔지니어 Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [자율주행 자동자 엔지니어 Nanodegree](https://www.udacity.com/drive)
+        - [Metis Online Course (2달동안 10만원)](http://www.thisismetis.com/explore-data-science)
+    - 자료:
+        - 책:
+            - [파이썬 머신 러닝](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
+            - [데이터 과학 시작하기: 파이썬과 함께 하는 첫 원칙](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X)
+            - [파이썬과 함께 하는 머신 러닝 소개](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/)
+        - [소프트웨어 엔지니어를 위한 머신 러닝](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
         - Data School: http://www.dataschool.io/
 
 - ### Go
-    - [ ] Videos:
-        - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
-        - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
-        - [ ] [A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
-    - [ ] Books:
-        - [ ] [An Introduction to Programming in Go (read free online)](https://www.golang-book.com/books/intro)
-        - [ ] [The Go Programming Language (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
-    - [ ] [Bootcamp](https://www.golang-book.com/guides/bootcamp)
+    - [ ] 영상:
+        - [ ] [왜 Go를 배워야해?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
+        - [ ] [Go 프로그래밍](https://www.youtube.com/watch?v=CF9S4QZuV30)
+        - [ ] [Go 소개](https://www.youtube.com/watch?v=ytEkHepK08c)
+    - [ ] 책:
+        - [ ] [Go 로 하는 프로그래밍 소개(online 에서는 꽁짜)](https://www.golang-book.com/books/intro)
+        - [ ] [Go 프로그래밍 언어 (Donovan & Kernighan)](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
+    - [ ] [부트 캠프](https://www.golang-book.com/guides/bootcamp)
 
 --
 
-## Additional Detail on Some Subjects
+## 또다른 주제에 대한 상세
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+    나는 특정 주제에 대해 조금더 상세히 설명하려고 한다. 하지만, 이것들을 원치 않는다면, 포함하지 않아도 된다. (너무 많거든)
 
-- [ ] **Union-Find**
+- [ ] **Union-Find 유니온 찾기**
     - [ ] [Overview](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [ ] [순진하게 구현](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
+    - [ ] [트리](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
+    - [ ] [랭크에 의한 유니온 Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
+    - [ ] [경로 압축](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
+    - [ ] [옵션 분석](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- [ ] **More Dynamic Programming** (videos)
-    - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
-    - [ ] [6.006: Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
-    - [ ] [6.006: DP III: Parenthesization, Edit Distance, Knapsack](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
-    - [ ] [6.006: DP IV: Guitar Fingering, Tetris, Super Mario Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-    - [ ] [6.046: Dynamic Programming & Advanced DP](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-    - [ ] [6.046: Dynamic Programming: All-Pairs Shortest Paths](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
-    - [ ] [6.046: Dynamic Programming (student recitation)](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
+- [ ] **동적 프로그래밍** (videos)
+    - [ ] [6.006: 동적 프로그래밍 I: 피보나치, 최단 경로](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
+    - [ ] [6.006: 동적 프로그래밍 II: 텍스트 양쪽 맞춤, 블랙잭](https://www.youtube.com/watch?v=ENyox7kNKeY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=20)
+    - [ ] [6.006: DP III: 괄호, 거리 수정, 배낭문제](https://www.youtube.com/watch?v=ocZMDMZwhCY&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=21)
+    - [ ] [6.006: DP IV: Guitar Fingering, 테트리스, 슈퍼 마리오 Bros.](https://www.youtube.com/watch?v=tp4_UXaVyx8&index=22&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [6.046: 동적 프로그래밍 고급](https://www.youtube.com/watch?v=Tw1k46ywN6E&index=14&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+    - [ ] [6.046: 동적 프로그래밍: 모든 쌍의 최단 경로](https://www.youtube.com/watch?v=NzgFUwOaoIw&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=15)
+    - [ ] [6.046: 동적 프로그래밍](https://www.youtube.com/watch?v=krZI60lKPek&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=12)
 
-- [ ] **Advanced Graph Processing** (videos)
-    - [ ] [Synchronous Distributed Algorithms: Symmetry-Breaking. Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
-    - [ ] [Asynchronous Distributed Algorithms: Shortest-Paths Spanning Trees](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
+- [ ] **그래프 처리** (videos)
+    - [ ] [동기화된 분산 알고리즘: Symmetry-Breaking. 최단 경로 스패닝 트리 ](https://www.youtube.com/watch?v=mUBmcbbJNf4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=27)
+    - [ ] [동기화된 분산 알고리즘: 최단 경로 스패닝 트리](https://www.youtube.com/watch?v=kQ-UQAzcnzA&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=28)
 
-- [ ] MIT **Probability** (mathy, and go slowly, which is good for mathy things) (videos):
-    - [ ] [MIT 6.042J - Probability Introduction](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Conditional Probability](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Independence](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Variables](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
-    - [ ] [MIT 6.042J - Expectation I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Expectation II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Large Deviations](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
-    - [ ] [MIT 6.042J - Random Walks](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
+- [ ] MIT **확률** (mathy, and go slowly, which is good for mathy things) (videos):
+    - [ ] [MIT 6.042J - 확률 소개](https://www.youtube.com/watch?v=SmFwFdESMHI&index=18&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 조건부 확률](https://www.youtube.com/watch?v=E6FbvM-FGZ8&index=19&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Independence 독립](https://www.youtube.com/watch?v=l1BCv3qqW4A&index=20&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Random Variables 랜덤 값](https://www.youtube.com/watch?v=MOfhhFaQdjw&list=PLB7540DEDD482705B&index=21)
+    - [ ] [MIT 6.042J - 기대값 I](https://www.youtube.com/watch?v=gGlMSe7uEkA&index=22&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - 기대값 II](https://www.youtube.com/watch?v=oI9fMUqgfxY&index=23&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Large Deviations 큰 편](https://www.youtube.com/watch?v=q4mwO2qS2z4&index=24&list=PLB7540DEDD482705B)
+    - [ ] [MIT 6.042J - Random Walks 랜덤 워크](https://www.youtube.com/watch?v=56iFMY8QW2k&list=PLB7540DEDD482705B&index=25)
 
-- [ ] [Simonson: Approximation Algorithms (video)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
+- [ ] [Simonson: Approximation Algorithms 근사 알고리즘 (영상)](https://www.youtube.com/watch?v=oDniZCmNmNw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=19)
 
-- [ ] **String Matching**
-    - [ ] Rabin-Karp (videos):
-        - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
-        - [Precomputing](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
-        - [Optimization: Implementation and Analysis](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
-        - [Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
+- [ ] **문자열 일치**
+    - [ ] Rabin-Karp (영상):
+        - [Rabin Karps 알고리즘](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
+        - [사전 계산](https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation)
+        - [최적화: 구현 및 분석](https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis)
+        - [표 이중화 Table Doubling, Karp-Rabin](https://www.youtube.com/watch?v=BRO7mVIFt08&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=9)
         - [Rolling Hashes, Amortized Analysis](https://www.youtube.com/watch?v=w6nuXg0BISo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=32)
     - [ ] Knuth-Morris-Pratt (KMP):
-        - [TThe Knuth-Morris-Pratt (KMP) String Matching Algorithm](https://www.youtube.com/watch?v=5i7oKodCRJo)
-    - [ ] Boyer–Moore string search algorithm
-        - [Boyer-Moore String Search Algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
-        - [Advanced String Searching Boyer-Moore-Horspool Algorithms (video)](https://www.youtube.com/watch?v=QDZpzctPf10)
-    - [ ] [Coursera: Algorithms on Strings](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
-        - starts off great, but by the time it gets past KMP it gets more complicated than it needs to be
-        - nice explanation of tries
-        - can be skipped
+        - [Knuth-Morris-Pratt (KMP) 문자열 찾기 알고리즘](https://www.youtube.com/watch?v=5i7oKodCRJo)
+    - [ ] Boyer–Moore 문자열 찾기 알고리즘
+        - [Boyer-Moore 문자열 찾기 알고리즘m](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)
+        - [고급 문자열 검색 Boyer-Moore-Horspool 알고리즘 (영상)](https://www.youtube.com/watch?v=QDZpzctPf10)
+    - [ ] [Coursera: 문자열에 대한 알고리즘](https://www.coursera.org/learn/algorithms-on-strings/home/week/1)
+        - 출발은 좋지만, KMP 에 대한 내용이 갈수록 복잡해짐
+        - 트리에 대한 설명 좋음
+        - 이건 안봐도 무방
 
-- [ ] **Sorting**
+- [ ] **정렬**
 
-    - [ ] Stanford lectures on sorting:
-        - [ ] [Lecture 15 | Programming Abstractions (video)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
-        - [ ] [Lecture 16 | Programming Abstractions (video)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
+    - [ ] Stanford 정렬에 대한 강좌:
+        - [ ] [Lecture 15 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69)
+        - [ ] [Lecture 16 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69)
     - [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
-        - [ ] [Algorithms - Sorting - Lecture 2 (video)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
-        - [ ] [Algorithms - Sorting II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
+        - [ ] [알고리즘 - 정렬 - Lecture 2 (영상)](https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2)
+        - [ ] [알고리즘 - 정렬 II - Lecture 3 (video)](https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3)
     - [ ] Steven Skiena lectures on sorting:
-        - [ ] [lecture begins at 26:46 (video)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
-        - [ ] [lecture begins at 27:40 (video)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-        - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
+        - [ ] [lecture 시작지점 26:46 (영상)](https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600)
+        - [ ] [lecture 시작지점 27:40 (영상)](https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [lecture 시작지점 35:00 (영상)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+        - [ ] [lecture 시작지점 23:50 (영상)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
-## Video Series
+## 영상 시리즈
 
-Sit back and enjoy. "Netflix and skill" :P
+앉아서 그냥 즐겨. "넷플릭스와 기술" :P
 
-- [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+- [ ] [개별 동적 프로그래밍 문제 리스트 (각각은 짧음)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
-- [ ] [x86 Architecture, Assembly, Applications (11 videos)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
+- [ ] [x86 아키텍쳐, 어셈블리, 응용프로그램 (11 영상)](https://www.youtube.com/playlist?list=PL038BE01D3BAEFDB0)
 
-- [ ] [MIT 18.06 Linear Algebra, Spring 2005 (35 videos)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+- [ ] [MIT 18.06 선형 대수학, Spring 2005 (35 영상)](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
 
-- [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
+- [ ] [훌륭 - MIT 미적분: 단일 변수 미적분학](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
+- [ ] [Computer Science 70, 001 - Spring 2015 - 이산 수학과 확률 이론](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [이산 수학 by Shai Simonson (19 영상)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
-- [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
+- [ ] [이산 수학 Part 1 by Sarada Herke (5 영상)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
-- [ ] CSE373 - Analysis of Algorithms (25 videos)
-    - [Skiena lectures from Algorithm Design Manual](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
+- [ ] CSE373 - 알고리즘 분석 (25 영상)
+    - [Skiena lectures 알고리즘 설계 메뉴얼](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=1)
 
-- [ ] [UC Berkeley 61B (Spring 2014): Data Structures (25 videos)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+- [ ] [UC Berkeley 61B (Spring 2014): 자료 구조 (25 영상)](https://www.youtube.com/watch?v=mFPmKGIrQs4&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
 
-- [ ] [UC Berkeley 61B (Fall 2006): Data Structures (39 videos)](https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
+- [ ] [UC Berkeley 61B (Fall 2006): 자료 구조 (39 영상)](https://www.youtube.com/playlist?list=PL4BBB74C7D2A1049C)
 
-- [ ] [UC Berkeley 61C: Machine Structures (26 videos)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
+- [ ] [UC Berkeley 61C: 기계 구조 (26 영상)](https://www.youtube.com/watch?v=gJJeUFyuvvg&list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)
 
-- [ ] [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
+- [ ] [OOSE: UML 과 JAVA로 하는 소프트웨어 개발 (21 영상)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- [ ] [UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
+- [ ] [UC Berkeley CS 152: 컴퓨터 아키텍쳐와 엔지니어링 (20 영상)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)
 
-- [ ] [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+- [ ] [MIT 6.004: 계산 구조 (49 영상)](https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- [ ] [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
+- [ ] [Carnegie Mellon - 컴퓨터 아키텍쳐 (39 영상)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
 
-- [ ] [MIT 6.006: Intro to Algorithms (47 videos)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
+- [ ] [MIT 6.006: 알고리즘 소개 (47 영상)](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&nohtml5=False)
 
-- [ ] [MIT 6.033: Computer System Engineering (22 videos)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
+- [ ] [MIT 6.033: 컴퓨터 시스템 엔지니어링 (22 영상)](https://www.youtube.com/watch?v=zm2VP0kHl1M&list=PL6535748F59DCA484)
 
-- [ ] [MIT 6.034 Artificial Intelligence, Fall 2010 (30 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
+- [ ] [MIT 6.034 인공지는, Fall 2010 (30 영상)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi)
 
-- [ ] [MIT 6.042J: Mathematics for Computer Science, Fall 2010 (25 videos)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
+- [ ] [MIT 6.042J: 컴퓨터 과학을 위한 수학, Fall 2010 (25 영상)](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)
 
-- [ ] [MIT 6.046: Design and Analysis of Algorithms (34 videos)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+- [ ] [MIT 6.046: 알고리즘 설계와 분석 (34 영상)](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- [ ] [MIT 6.050J: Information and Entropy, Spring 2008 (19 videos)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
+- [ ] [MIT 6.050J: 정보와 엔트로피, Spring 2008 (19 영상)](https://www.youtube.com/watch?v=phxsQrZQupo&list=PL_2Bwul6T-A7OldmhGODImZL8KEVE38X7)
 
-- [ ] [MIT 6.851: Advanced Data Structures (22 videos)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+- [ ] [MIT 6.851: 고급 자료 구조 (22 영상)](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 
-- [ ] [MIT 6.854: Advanced Algorithms, Spring 2016 (24 videos)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+- [ ] [MIT 6.854: 고급 알고리즘, Spring 2016 (24 영상)](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-- [ ] [Harvard COMPSCI 224: Advanced Algorithms (25 videos)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+- [ ] [Harvard COMPSCI 224: 고급 알고리즘 (25 영상)](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
 
-- [ ] [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+- [ ] [MIT 6.858 컴퓨터 시스템 보안, Fall 2014 (영상)](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [ ] [Stanford: Programming Paradigms (27 videos)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [ ] [Stanford: 프로그래밍 패러다임 (27 영상)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
 
-- [ ] [Introduction to Cryptography by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
-    - [Course Website along with Slides and Problem Sets](http://www.crypto-textbook.com/)
+- [ ] [암호학 소개 by Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
+    - [강좌를 위한 웹사이트에 슬라이드와 문제들이 있다](http://www.crypto-textbook.com/)
 
-- [ ] [Mining Massive Datasets - Stanford University (94 videos)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
+- [ ] [Mining 대규모 데이터 셋 - Stanford University (94 영상들)](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
 
-- [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
+- [ ] [그래프 이론 by Sarada Herke (67 영상들)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## 컴퓨터 과학
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
