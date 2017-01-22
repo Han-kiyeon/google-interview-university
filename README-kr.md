@@ -1186,6 +1186,7 @@ OR:
         - [캐쉬](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
         - [비동기](http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism)
     - [ ] [확장 가능한 웹 아키텍쳐와 분산 시스템](http://www.aosabook.org/en/distsys.html)
+        - [이 사이트의 번역 블로그](http://d2.naver.com/helloworld/206816)
     - [ ] [분산 컴퓨팅의 오류에 대한 설명](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
     - [ ] [실용적인 프로그래밍 기법](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
         - [추가: 구글 Pregel 그래프 처리](http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html)
