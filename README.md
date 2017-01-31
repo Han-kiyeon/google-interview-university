@@ -946,6 +946,9 @@ OR:
         - [ ] [Lecture 10 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | 프로그래밍 추상화 (영상)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - 이것을 언제 사용해야 적절한가?
+    - 재귀를 다양하고 쉽게 풀수 있는 사이트(초보자 연습용)
+        - [ ] [연습-1](http://codingbat.com/java/Recursion-1)
+        - [ ] [연습-2](http://codingbat.com/java/Recursion-2)
     - 꼬리(tail) 재귀를 사용할 때와 아닐 때는 어떤게 더 나아?
         - [ ] [꼬리 재귀(Tail Recursion) 은 뭐고, 왜 나쁜가?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [꼬리 재귀 (영상)](https://www.youtube.com/watch?v=L1jjXGfxozc)
