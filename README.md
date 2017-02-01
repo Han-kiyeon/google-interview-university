@@ -415,7 +415,7 @@ OR:
     - Yegge 말을 인용: "만약 당신이 인터뷰를 받기를 원한다면, 이 책에 대해 당신의 방법대로 진행이 완료될 때까지 지원서 내는 것을 조금 뒤로 미루는 것도 고민해보라. "
     - 좋은 가격으로 Half.com 에서 살수 있다.
     - 저자 이름을 따서 CLR 또는 CLRS 라 불린다.(Stein 이란 사람이 늦게 합류해서 CLR 로도 불린다는..)
-    - [번역판] http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156641131&orderClick=LEB&Kc=
+    - [번역판](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156641131&orderClick=LEB&Kc=)
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
     - 첫 몇 챕터는 프로그래밍 문제에 대해 훌륭한 해결책을 보여주지만, 이것은 단지 소개정도일 뿐이다. 이 책은 프로그램의 디자인 및 설계에 대한 것이고 "Code complete" 보다 짧은 버전이다.
