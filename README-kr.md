@@ -1479,7 +1479,7 @@ You're never really done. 여기서 끝내면 안됩니다.
         - [ ] [동적 프로그래밍](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
         - [ ] [The RNA secondary structure problem (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem)
-        - [ ] [동적 프로그래밍 알고리즘 (영ㅅ상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
+        - [ ] [동적 프로그래밍 알고리즘 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm)
         - [ ] [DP 알고리즘의 일러스트 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm)
         - [ ] [DP 알고리즘의 수행시간 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm)
         - [ ] [DP vs. 재귀 구현 (영상)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation)
@@ -1499,6 +1499,8 @@ You're never really done. 여기서 끝내면 안됩니다.
 - ### 유니코드
     - [ ] [모든 소프트웨어 개발자가 최소한으로 알아야 할 유니코드와 캐랙터 셑]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [모든 프로그래머가 알아야 하는 텍스트 인코딩과 캐랙터 셑](http://kunststube.net/encoding/)
+    - [ ] [한글 인코딩의 이해 1편: 한글 인코딩의 역사와 유니코드](http://d2.naver.com/helloworld/19187)
+    - [ ] [한글 인코딩의 이해 2편: 유니코드와 Java를 이용한 한글 처리](http://d2.naver.com/helloworld/76650)
 
 - ### 엔디안
     - [ ] [빅 / 리틀 엔디안](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
