@@ -1121,6 +1121,8 @@ OR:
         - [ ] [영상](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [테스트코드는 어떻게?](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [Unit Testing C++](http://alexott.net/en/cpp/CppTestingIntro.html)
+    - [ ] [Unit Testing 초보자 가이드](https://www.codementor.io/wbsimms/unit-testing-foundations-programming-beginners-du107q81d)
 
 - ### 스케줄링
     - OS 에서 어떻게 동작하는지 확인
